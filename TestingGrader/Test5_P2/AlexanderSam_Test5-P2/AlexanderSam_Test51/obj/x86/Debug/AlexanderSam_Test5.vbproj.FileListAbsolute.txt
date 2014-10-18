@@ -1,0 +1,13 @@
+J:\Classes\VB.net\AlexanderSam_Test5\AlexanderSam_Test51\bin\Debug\AlexanderSam_Test51.exe.config
+J:\Classes\VB.net\AlexanderSam_Test5\AlexanderSam_Test51\bin\Debug\AlexanderSam_Test51.exe
+J:\Classes\VB.net\AlexanderSam_Test5\AlexanderSam_Test51\bin\Debug\AlexanderSam_Test51.pdb
+J:\Classes\VB.net\AlexanderSam_Test5\AlexanderSam_Test51\bin\Debug\AlexanderSam_Test51.xml
+J:\Classes\VB.net\AlexanderSam_Test5\AlexanderSam_Test51\obj\x86\Debug\ResolveAssemblyReference.cache
+J:\Classes\VB.net\AlexanderSam_Test5\AlexanderSam_Test51\obj\x86\Debug\AlexanderSam_Test51.Form1.resources
+J:\Classes\VB.net\AlexanderSam_Test5\AlexanderSam_Test51\obj\x86\Debug\AlexanderSam_Test51.Resources.resources
+J:\Classes\VB.net\AlexanderSam_Test5\AlexanderSam_Test51\obj\x86\Debug\GenerateResource.read.1.tlog
+J:\Classes\VB.net\AlexanderSam_Test5\AlexanderSam_Test51\obj\x86\Debug\GenerateResource.write.1.tlog
+J:\Classes\VB.net\AlexanderSam_Test5\AlexanderSam_Test51\obj\x86\Debug\AlexanderSam_Test51.exe
+J:\Classes\VB.net\AlexanderSam_Test5\AlexanderSam_Test51\obj\x86\Debug\AlexanderSam_Test51.xml
+J:\Classes\VB.net\AlexanderSam_Test5\AlexanderSam_Test51\obj\x86\Debug\AlexanderSam_Test51.pdb
+J:\Classes\VB.net\AlexanderSam_Test5\AlexanderSam_Test51\obj\x86\Debug\AlexanderSam_Test51.Form2.resources

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BeckerA_Test3", "BeckerA_Test3.vbproj", "{EC7EE7DE-0A72-48FE-B4B5-F098AD465E3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC7EE7DE-0A72-48FE-B4B5-F098AD465E3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC7EE7DE-0A72-48FE-B4B5-F098AD465E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC7EE7DE-0A72-48FE-B4B5-F098AD465E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC7EE7DE-0A72-48FE-B4B5-F098AD465E3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,28 @@
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab8\AbabioM_Lab8\bin\Debug\AbabioM_Lab8.exe.config
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab8\AbabioM_Lab8\bin\Debug\AbabioM_Lab8.exe
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab8\AbabioM_Lab8\bin\Debug\AbabioM_Lab8.pdb
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab8\AbabioM_Lab8\bin\Debug\AbabioM_Lab8.xml
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab8\AbabioM_Lab8\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab8\AbabioM_Lab8\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab8\AbabioM_Lab8\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab8\AbabioM_Lab8\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab8\AbabioM_Lab8\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab8\AbabioM_Lab8\obj\x86\Debug\AbabioM_Lab8.exe
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab8\AbabioM_Lab8\obj\x86\Debug\AbabioM_Lab8.xml
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab8\AbabioM_Lab8\obj\x86\Debug\AbabioM_Lab8.pdb
+J:\AbabioM_Lab8\bin\Debug\AbabioM_Lab8.exe.config
+J:\AbabioM_Lab8\obj\x86\Debug\AbabioM_Lab8.exe
+J:\AbabioM_Lab8\obj\x86\Debug\AbabioM_Lab8.xml
+J:\AbabioM_Lab8\obj\x86\Debug\AbabioM_Lab8.pdb
+J:\AbabioM_Lab8\bin\Debug\AbabioM_Lab8.exe
+J:\AbabioM_Lab8\bin\Debug\AbabioM_Lab8.pdb
+J:\AbabioM_Lab8\bin\Debug\AbabioM_Lab8.xml
+J:\AbabioM_Lab8\obj\x86\Debug\ResolveAssemblyReference.cache
+J:\AbabioM_Lab8\obj\x86\Debug\WindowsApplication1.Form1.resources
+J:\AbabioM_Lab8\obj\x86\Debug\WindowsApplication1.Resources.resources
+J:\AbabioM_Lab8\obj\x86\Debug\GenerateResource.read.1.tlog
+J:\AbabioM_Lab8\obj\x86\Debug\GenerateResource.write.1.tlog
+S:\Courses\CSSE\yangq\CS2340\DROPBOX\LAB8\AbabioM_Lab8\bin\Debug\AbabioM_Lab8.exe.config
+S:\Courses\CSSE\yangq\CS2340\DROPBOX\LAB8\AbabioM_Lab8\obj\x86\Debug\AbabioM_Lab8.exe
+S:\Courses\CSSE\yangq\CS2340\DROPBOX\LAB8\AbabioM_Lab8\obj\x86\Debug\AbabioM_Lab8.xml
+S:\Courses\CSSE\yangq\CS2340\DROPBOX\LAB8\AbabioM_Lab8\obj\x86\Debug\AbabioM_Lab8.pdb

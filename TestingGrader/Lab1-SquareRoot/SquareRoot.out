@@ -1,0 +1,43 @@
+---------- 6 Points out of 10 Points ---------
+---------- 8 Errors out of 32 Tests ----------
+
+Error in Component: frmMain
+                 Property: Text
+               Expected: Lab1 (firstname lastname)
+              But Found: Lab 1 (Qi Yang)
+
+Error in Component: frmMain
+                 Property: Height
+               Expected: 292
+              But Found: 302
+
+Error in Component: frmMain
+                 Property: Width
+               Expected: 500
+              But Found: 510
+
+Error in Component: lblInput
+                 Property: Name
+               Expected: lblInput
+              But Found: Label1
+
+Error in Component: lblInput
+                 Property: Text
+               Expected: Inputtt
+              But Found: Input
+
+Error in Component: lblSquare
+                 Property: Name
+               Expected: lblSquare
+              But Found: Label2
+
+Error in Component: btnCompute
+                 Property: Name
+               Expected: btnCompute
+              But Found: Button3
+
+Error in Component: btnExit
+                 Property: Name
+               Expected: btnExit
+              But Found: Button2
+

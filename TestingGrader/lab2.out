@@ -1,0 +1,453 @@
+---------- 10.5 Points out of 15 Points ---------
+---------- 9 Errors  out of 150 Tests ----------
+Main Form Title: Lab2 (Michael Ababio)
+Error in Component: frmMain
+          Property: Text
+          Expected: Lab2 (firstname lastname)
+         But Found: Lab2 (Michael Ababio)
+
+Error in Component: frmMain
+          Property: Height
+          Expected: 450
+         But Found: 476
+
+Error in Component: frmMain
+          Property: Width
+          Expected: 500
+         But Found: 504
+
+Error in Component: lblPayRoll
+          Property: Font.Size
+          Expected: 14
+         But Found: 14.25
+
+Error in Component: txtGrossPay
+          Property: TabStop
+          Expected: False
+         But Found: True
+
+Error in Component: txtDeduction
+          Property: TabStop
+          Expected: False
+         But Found: True
+
+Error in Component: txtNetPay
+          Property: TabStop
+          Expected: False
+         But Found: True
+
+Error in Component: lblGrossPay
+          Property: Text
+          Expected: Gross Pay
+         But Found: GrossPay
+
+Error in Component: lblNetPay
+          Property: Text
+          Expected: Net Pay
+         But Found: NetPay
+
+---------- 3 Points out of 15 Points ---------
+---------- 24 Errors  out of 150 Tests ----------
+Main Form Title: Lab2
+Error in Component: frmMain
+          Property: Text
+          Expected: Lab2 (firstname lastname)
+         But Found: Lab2
+
+Error in Component: frmMain
+          Property: Height
+          Expected: 450
+         But Found: 440
+
+Error in Component: frmMain
+          Property: Width
+          Expected: 500
+         But Found: 490
+
+Error in Component: lblPayRoll
+          Property: Font.Size
+          Expected: 14
+         But Found: 14.25
+
+Error in variable: msgCaption
+          Expected: Lab 2
+         But Found: Lab2
+
+Error in variable: msgCaption
+          Expected: Lab 2
+         But Found: Lab2
+
+Error in variable: msgLabel_line1
+          Expected: Invalid Rate!
+         But Found: Invalid Rate!
+Rate must be a number!
+
+Error in variable: msgLabel_line2
+          Expected: Rate must be a number!
+         But Found: 
+
+Error in variable: msgCaption
+          Expected: Lab 2
+         But Found: Lab2
+
+Error in variable: msgLabel_line1
+          Expected: Invalid Rate!
+         But Found: Invalid Rate!
+Rate must be a number!
+
+Error in variable: msgLabel_line2
+          Expected: Rate must be a number!
+         But Found: 
+
+Error in variable: msgCaption
+          Expected: Lab 2
+         But Found: Lab2
+
+Error in variable: msgLabel_line1
+          Expected: Invalid Rate!
+         But Found: Invalid Hours!
+Hours must be a number!
+
+Error in variable: msgLabel_line2
+          Expected: Rate must be positive!
+         But Found: 
+
+Error in variable: msgCaption
+          Expected: Lab 2
+         But Found: Lab2
+
+Error in variable: msgLabel_line1
+          Expected: Invalid Hours!
+         But Found: Invalid Hours!
+Hours must be a number!
+
+Error in variable: msgLabel_line2
+          Expected: Hours must be a number!
+         But Found: 
+
+Error in variable: msgCaption
+          Expected: Lab 2
+         But Found: Lab2
+
+Error in variable: msgLabel_line1
+          Expected: Invalid Hours!
+         But Found: Invalid Hours!
+Hours must be a number!
+
+Error in variable: msgLabel_line2
+          Expected: Hours must be a number!
+         But Found: 
+
+Error in variable: msgCaption
+          Expected: Lab 2
+         But Found: Lab2
+
+Error in variable: msgLabel_line1
+          Expected: Invalid Hours!
+         But Found: Invalid Hous!
+Hours must be non-negative!
+
+Error in variable: msgLabel_line2
+          Expected: Hours must be non-negative!
+         But Found: 
+
+Error in variable: msgCaption
+          Expected: Lab 2
+         But Found: Lab2
+
+---------- -3 Points out of 15 Points ---------
+---------- 36 Errors  out of 149 Tests ----------
+Main Form Title: Lab 2(Alsukayti Mazen)
+Error in Component: frmMain
+          Property: Text
+          Expected: Lab2 (firstname lastname)
+         But Found: Lab 2(Alsukayti Mazen)
+
+Error in Component: frmMain
+          Property: Height
+          Expected: 450
+         But Found: 440
+
+Error in Component: frmMain
+          Property: Width
+          Expected: 500
+         But Found: 490
+
+Error in Component: lblPayRoll
+          Property: Font.Size
+          Expected: 14
+         But Found: 14.25
+
+Error in Component: txtID
+          Property: Width
+          Expected: 100
+         But Found: 106
+
+Error in Component: txtRate
+          Property: Width
+          Expected: 100
+         But Found: 106
+
+Error in Component: txtHours
+          Property: Width
+          Expected: 100
+         But Found: 106
+
+Error in Component: txtGrossPay
+          Property: Width
+          Expected: 100
+         But Found: 106
+
+Error in Component: txtDeduction
+          Property: Width
+          Expected: 100
+         But Found: 106
+
+Error in Component: txtNetPay
+          Property: Width
+          Expected: 100
+         But Found: 106
+
+Error in Component: lblID
+          Property: Font.Name
+          Expected: Microsoft Sans Serif
+         But Found: Times New Roman
+
+Error in Component: lblID
+          Property: Font.Size
+          Expected: 8.25
+         But Found: 9.75
+
+Error in Component: lblRate
+          Property: Font.Name
+          Expected: Microsoft Sans Serif
+         But Found: Times New Roman
+
+Error in Component: lblRate
+          Property: Font.Size
+          Expected: 8.25
+         But Found: 9.75
+
+Error in Component: lblHours
+          Property: Font.Name
+          Expected: Microsoft Sans Serif
+         But Found: Times New Roman
+
+Error in Component: lblHours
+          Property: Font.Size
+          Expected: 8.25
+         But Found: 9.75
+
+Error in Component: lblDeduction
+          Property: Text
+          Expected: Gross Pay
+         But Found: Deduction
+
+Error in Component: lblDeduction
+          Property: Font.Name
+          Expected: Microsoft Sans Serif
+         But Found: Times New Roman
+
+Error in Component: lblDeduction
+          Property: Font.Size
+          Expected: 8.25
+         But Found: 9.75
+
+Error in Component: lblGrossPay
+          Property: Text
+          Expected: Deduction
+         But Found: Gross Pay
+
+Error in Component: lblGrossPay
+          Property: Font.Name
+          Expected: Microsoft Sans Serif
+         But Found: Times New Roman
+
+Error in Component: lblGrossPay
+          Property: Font.Size
+          Expected: 8.25
+         But Found: 9.75
+
+Error in Component: lblNetPay
+          Property: Font.Name
+          Expected: Microsoft Sans Serif
+         But Found: Times New Roman
+
+Error in Component: lblNetPay
+          Property: Font.Size
+          Expected: 8.25
+         But Found: 9.75
+
+txtID and lblID are not aligned on Left
+
+txtRate and lblRate are not aligned on Left
+
+txtHours and lblHours are not aligned on Left
+
+txtGrossPay and lblDeduction are not aligned on Left
+
+lblID and lblDeduction are not aligned on Top
+
+lblRate and lblGrossPay are not aligned on Top
+
+Error in variable: msgLabel_line1
+          Expected: Invalid Rate!
+         But Found: Invalid Rate!
+Rate must be a number!
+
+Error in variable: msgLabel_line2
+          Expected: Rate must be a number!
+         But Found: 
+
+Error in variable: msgLabel_line1
+          Expected: Invalid Rate!
+         But Found: Invalid Rate!
+Rate must be a number!
+
+Error in variable: msgLabel_line2
+          Expected: Rate must be a number!
+         But Found: 
+
+Error in variable: msgLabel_line2
+          Expected: Hours must be a number!
+         But Found: hours must be a number!
+
+Error in variable: msgLabel_line2
+          Expected: Hours must be a number!
+         But Found: hours must be a number!
+
+---------- 7 Points out of 15 Points ---------
+---------- 16 Errors  out of 150 Tests ----------
+Main Form Title: Lab 2 (Caleb Ballweg)
+Error in Component: frmMain
+          Property: Text
+          Expected: Lab2 (firstname lastname)
+         But Found: Lab 2 (Caleb Ballweg)
+
+Error in Component: frmMain
+          Property: Height
+          Expected: 450
+         But Found: 440
+
+Error in Component: frmMain
+          Property: Width
+          Expected: 500
+         But Found: 490
+
+Error in Component: frmMain
+          Property: StartPosition
+          Expected: CenterScreen
+         But Found: WindowsDefaultLocation
+
+Error in Component: lblPayRoll
+          Property: Font.Size
+          Expected: 14
+         But Found: 14.25
+
+Error in variable: msgCaption
+          Expected: Lab 2
+         But Found: Lab2
+
+Error in variable: msgCaption
+          Expected: Lab 2
+         But Found: Lab2
+
+Error in variable: msgLabel_line1
+          Expected: Invalid Rate!
+         But Found: Invalid Rate!
+Rate must be a number!
+
+Error in variable: msgLabel_line2
+          Expected: Rate must be a number!
+         But Found: 
+
+Error in variable: msgLabel_line1
+          Expected: Invalid Rate!
+         But Found: Invalid Rate!
+Rate must be a number!
+
+Error in variable: msgLabel_line2
+          Expected: Rate must be a number!
+         But Found: 
+
+Error in variable: msgLabel_line1
+          Expected: Invalid Hours!
+         But Found: Invalid Hours!
+Rate must be a number!
+
+Error in variable: msgLabel_line2
+          Expected: Hours must be a number!
+         But Found: Rate must be positive!
+
+Error in variable: msgLabel_line1
+          Expected: Invalid Hours!
+         But Found: Invalid Hours!
+Rate must be a number!
+
+Error in variable: msgLabel_line2
+          Expected: Hours must be a number!
+         But Found: Rate must be positive!
+
+Error in variable: msgLabel_line2
+          Expected: Hours must be non-negative!
+         But Found: Rate must be positive!
+
+---------- 8 Points out of 15 Points ---------
+---------- 14 Errors  out of 148 Tests ----------
+Main Form Title: Lab2 Alex Becker
+Error in Component: frmMain
+          Property: Text
+          Expected: Lab2 (firstname lastname)
+         But Found: Lab2 Alex Becker
+
+Error in Component: frmMain
+          Property: FormBorderStyle
+          Expected: FixedSingle
+         But Found: Sizable
+
+Error in Component: frmMain
+          Property: ControlBox
+          Expected: False
+         But Found: True
+
+Error in Component: lblPayRoll
+          Property: Font.Size
+          Expected: 14
+         But Found: 14.25
+
+txtID and lblID are not aligned on Left
+
+txtRate and lblRate are not aligned on Left
+
+txtHours and lblHours are not aligned on Left
+
+txtGrossPay and lblGrossPay are not aligned on Left
+
+txtDeduction and lblDeduction are not aligned on Left
+
+txtNetPay and lblNetPay are not aligned on Left
+
+Error in variable: msgLabel_line2
+          Expected: Rate must be a number!
+         But Found: Rate Must be a number!
+
+Error in variable: msgLabel_line2
+          Expected: Rate must be a number!
+         But Found: Rate Must be a number!
+
+Error in variable: msgLabel_line2
+          Expected: Hours must be a number!
+         But Found: Hours Must be a number!
+
+Error in variable: msgLabel_line2
+          Expected: Hours must be a number!
+         But Found: Hours Must be a number!
+
+---------- 14.5 Points out of 15 Points ---------
+---------- 1 Errors  out of 150 Tests ----------
+Main Form Title: Lab2 (Qi Yang)
+Error in Component: frmMain
+          Property: Text
+          Expected: Lab2 (firstname lastname)
+         But Found: Lab2 (Qi Yang)
+

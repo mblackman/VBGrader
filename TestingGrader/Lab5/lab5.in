@@ -1,0 +1,166 @@
+' The total point value of this assignment
+TotalPoints 15
+
+' Checks the content of the form frmPayRoll
+Form frmPayRoll
+	' Text "Lab5 (firstname lastname)" 0.5
+	FormBorderStyle FixedSingle 0.5
+	WindowState Normal 0.5
+	StartPosition CenterScreen 0.5
+
+' Checks lblPayRoll properties
+Find Label lblPayRoll 
+	Name lblPayRoll 0.5
+	AutoSize True 0.5
+	Text "PayRoll Program" 0.5
+	Font.Name "Arial" 0.5
+	Font.Size 14 0.5
+	Font.Underline False 0.5
+	Aligned Horizontal 0.5
+	
+' Checks txtID Properties
+Find TextBox txtID 
+	Name txtID 0.5
+	Multiline False 0.5
+	Height 20 0.5
+	Width 100 0.5
+	TextAlign Left 0.5
+	
+' Checks txtRate Properties
+Find TextBox txtRate 
+	Multiline False 0.5
+	Height 20 0.5
+	Width 100 0.5
+	TextAlign Left 0.5
+	
+' Checks txtHours Properties
+Find TextBox txtHours 
+	Name txtHours 0.5
+	Multiline False 0.5
+	Height 20 0.5
+	Width 100 0.5
+	TextAlign Left 0.5
+	
+' Checks txtGrossPay Properties
+Find TextBox txtGrossPay 
+	Name txtGrossPay 0.5
+	Multiline False 0.5
+	Height 20 0.5
+	Width 100 0.5
+	TextAlign Right 0.5
+	ReadOnly True 0.5
+	TabStop False 0.5
+	BackColor "Color [Window]" 0.5
+	
+' Checks txtDeduction Properties
+Find TextBox txtDeduction 
+	Name txtDeduction 0.5
+	Multiline False 0.5
+	Height 20 0.5
+	Width 100 0.5
+	TextAlign Right 0.5
+	ReadOnly True 0.5
+	TabStop False 0.5
+	BackColor "Color [Window]" 0.5
+	
+' Checks txtNetPay Properties
+Find TextBox txtNetPay 
+	Name txtNetPay 0.5
+	Multiline False 0.5
+	Height 20 0.5
+	Width 100 0.5
+	TextAlign Right 0.5
+	ReadOnly True 0.5
+	TabStop False 0.5
+	BackColor "Color [Window]" 0.5
+
+' Checks lblID Properties
+Find Label lblID 
+	Name lblID 0.5
+	AutoSize True 0.5
+	Text ID 0.5
+	Font.Name "Microsoft Sans Serif" 0.5
+	Font.Size 8.25 0.5
+	TextAlign MiddleLeft 0.5
+	
+' Checks lblRate Properties
+Find Label lblRate 
+	Name lblRate 0.5
+	AutoSize True 0.5
+	Text Rate 0.5
+	Font.Name "Microsoft Sans Serif" 0.5
+	Font.Size 8.25 0.5
+	TextAlign MiddleLeft 0.5
+	
+' Checks lblHours Properties
+Find Label lblHours 
+	Name lblHours 0.5
+	AutoSize True 0.5
+	Text Hours 0.5
+	Font.Name "Microsoft Sans Serif" 0.5
+	Font.Size 8.25 0.5
+	TextAlign MiddleLeft 0.5
+	
+' Checks lblGrossPay Properties
+Find Label lblGrossPay 
+	Name lblGrossPay 0.5
+	AutoSize True 0.5
+	Text "Gross Pay" 0.5
+	Font.Name "Microsoft Sans Serif" 0.5
+	Font.Size 8.25 0.5
+	TextAlign MiddleLeft 0.5
+	
+' Checks lblDeduction Properties
+Find Label lblDeduction 
+	Name lblDeduction 0.5
+	AutoSize True 0.5
+	Text Deduction 0.5
+	Font.Name "Microsoft Sans Serif" 0.5
+	Font.Size 8.25 0.5
+	TextAlign MiddleLeft 0.5
+	
+' Checks lblNetPay Properties
+Find Label lblNetPay 
+	Name lblNetPay 0.5
+	AutoSize True 0.5
+	Text "Net Pay" 0.5
+	Font.Name "Microsoft Sans Serif" 0.5
+	Font.Size 8.25 0.5
+	TextAlign MiddleLeft 0.5
+	
+' Check menuStrip properties 
+Find MenuStrip menuStrip1 
+	
+Find ToolStripMenuItem fileToolStripMenuItem 
+	Name FileToolStripMenuItem 0.5
+	Text &File 0.5
+	
+Find ToolStripMenuItem computeToolStripMenuItem 
+	Name ComputeToolStripMenuItem 0.5
+	Text &Compute 0.5
+	ShortcutKeys Ctrl+C 0.5
+	
+Find ToolStripMenuItem nextToolStripMenuItem 
+	Name NextToolStripMenuItem 0.5
+	Enabled False 0.5
+	Text &Next 0.5
+	ShortcutKeys Ctrl+N 0.5
+	
+Find ToolStripMenuItem statsToolStripMenuItem 
+	Name StatsToolStripMenuItem 0.5
+	Text &Stats 0.5
+	ShortcutKeys Ctrl+S 0.5
+	
+Find ToolStripMenuItem exitToolStripMenuItem 
+	Name ExitToolStripMenuItem 0.5
+	Text E&xit 0.5
+	ShortcutKeys Ctrl+X 0.5
+	
+' Checks the content of the form frmPayRoll
+Form frmStats
+	'Text "Stats (firstname lastname)" 0.5
+	Height 480 0.5
+	Width 380 0.5
+	FormBorderStyle FixedSingle 0.5
+	WindowState Normal 0.5
+	StartPosition CenterScreen 0.5

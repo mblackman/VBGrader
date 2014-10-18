@@ -1,0 +1,121 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0065)http://www.uwplatt.edu/csse/Courses/prev/f12/CS234/Labs/Lab3.html -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"><HTML 
+xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>CS 2340: Programming in Visual 
+Basic </TITLE>
+<META content="text/html; charset=windows-1252" http-equiv="Content-Type">
+<META name="GENERATOR" content="MSHTML 9.00.8112.16470"></HEAD>
+<BODY>
+<CENTER>
+<H3>         CS 2340 - Lab 3 (20 points)<BR>Due 9 PM, Wednesday, September 19, 
+2012</H3></CENTER>
+<P>Create a VB.NET program in MS Visual Studio 2010 that will display the conent 
+of a file  in a textbox and search targets within the textbox.</P>
+<H5> The Form </H5>
+<UL>
+  <LI> The program has one form and its title is "Lab3" followed by your full 
+  name. </LI>
+  <LI> The form name is frmLab3. </LI>
+  <LI> The size of the form is (650, 450), the FormBorderStyle is Fixed3D and it 
+  has no ControlBox. </LI>
+  <LI> The WindowState is Normal and the StartPosition is CenterScreen. </LI>
+  <LI> The AcceptButton is btnFind and the CancelButton is btnExit. </LI></UL>
+<H5> The File Textbox</H5>
+<UL>
+  <LI> There is a textbox of size (450, 230) to display the content of a file. 
+  </LI>
+  <LI> The name of the textbox is txtFile. </LI>
+  <LI> The MultiLine property is True with a vertical scrollbar and the WordWrap 
+  is False. </LI>
+  <LI> It's centered in the form both horizontally and vertically. </LI></UL>
+<H5> Command Buttons </H5>
+<UL>
+  <LI> There are 6 buttons below the file textbox and they all have the default 
+  size. </LI>
+  <LI> The name is btnFile, btnFind, btnNext, btnSave, btnSaveAs and btnExit, 
+  respectively. </LI>
+  <LI> The text is "<U>O</U>PEN FILE", "<U>S</U>AVE",     "SAVE <U>A</U>S",  
+  "<U>F</U>IND", "<U>N</U>EXT", and "E<U>X</U>IT," respectively.      Each 
+  button has an access key indicated by the underlined character. </LI>
+  <LI> Clicking the Open File button will display an OpenFileDialog.     The 
+  InitialDirectory is "C:\temp;"      the Filter has two items, the first for 
+  all files and the second for text files,     and the second item is selected 
+  at the beginning.      <BR>     If no file is selected, a message box should 
+  be displayed;      the program goes back to the form without doing any thing 
+  after the messagebox is closed.      Otherwise, the content of the file will 
+  be displayed in the file textbox,     and button Find will get the focus.     
+  </LI>
+  <LI> Clicking button Find will display an inputbox for the user to enter the 
+  search string.      The prompt of the inputbox is "CS234 - Lab3" followed by 
+  "Enter a string: " on the next line;     the title is "Search Target".     
+  <BR>     If the user enters a string and then clicks OK,     then the program 
+  will try to find out if the entered string is in the file textbox.     If the 
+  search string is found in the file textbox, then the first occurrence of the 
+  string     in the file textbox will be highlighted and the method 
+  ScrollToCaret should be called so     the user can see the highlighted text; 
+  otherwise a message box will be displayed to indicate     the target is not 
+  found.     If no search string is entered, or button Cancel is clicked, a 
+  message box should be displayed     to indicate no target is entered.    </LI>
+  <LI> Button Next is disabled at the beginning. It will be enabled after a 
+  search is successful.      After the button is clicked, the program will 
+  search the next occurrence of the target.      If the search is successful, 
+  the found occurrence will be highlighted and the user should be able to     
+  see the highlighted text without doing anything;     otherwise, a message box 
+  will be displayed to say the end of file is reached and the button is 
+  disabled.     Whenever a new search is started (button Search is clicked), 
+  button NEXT will be disabled;      it will become enabled or remain disabled 
+  depending on if the new search is successful or not.    </LI>
+  <LI> Clicking button btnSaveAs will pop up a SaveFileDialog.     The 
+  InitialDirectory is "C:\temp;"     the Filter has two items, the first for all 
+  files and the second for text files,     and the first item is selected at the 
+  beginning.      <BR>     If no file is selected/entered, a message box should 
+  be displayed;      the program goes back to the form without doing anything.   
+     Otherwise, the content of the file textbox will be saved in the specified 
+  file. </LI>
+  <LI> Clicking button btnSave will save the content of the file textbox to the 
+  file openned last time,     or the file Saved As to last time, whichever 
+  occured later. </LI>
+  <LI> Clicking button EXIT will pop up a msgbox to ask the user "Do you really 
+  want to exit?"     The msgbox has two buttons, Yes and No, with information 
+  icon.      Only when the user clicks on Yes, the program will terminate. </LI>
+  <LI> Pressing ALT+F4 will not terminate the program. </LI></UL>
+<H5> Target Textbox and Label </H5>
+<UL>
+  <LI> There is a textbox with a label above the file textbox. </LI>
+  <LI> The size of the textbox is (210, 20) and its MultiLine is false.  </LI>
+  <LI> It's read only, its back color is Window, and it's aligned with textbox 
+  txtFile on the left. </LI>
+  <LI> It is cleared when the form is loaded at the beginning and every time the 
+  search button is clicked.     After a search target is entered, the search 
+  target will be displayed in the textbox. </LI>
+  <LI> The label is above the textbox and reads "Search Target". </LI></UL>
+<H5> Search Options </H5>
+<UL>
+  <LI> A search can be case sensitive or not case sensitive. </LI>
+  <LI> There are two radio buttons with a label above the file textbox, to the 
+  right of the search target textbox. </LI>
+  <LI> The text of the label is "Case Sensitive". </LI>
+  <LI> The text of the two buttons is "Yes" and "No" respectively. </LI>
+  <LI> When "Yes" is selected, all searches must be case sensitive; otherwise, 
+  all searches are not case sensitive. </LI>
+  <LI> The case sensitive option can be changed at any time.      After the 
+  option is changed, all following search must be carried out based on the new 
+  option. </LI><!-- , including after a successful search and/or a successful next search. -->
+  <LI> When the form is loaded, radio button Yes is checked. </LI></UL>
+<H5> Tab Order </H5>
+<UL>
+  <LI> Button Open File will have the focus when the program starts. </LI>
+  <LI> When the Tab key is pressed, the focus will go to button Save, button 
+  Save As, button Find, button Next (when enabled),     button Exit, radio 
+  buttons, then back to button Open File. </LI>
+  <LI> The file textbox will get focus when a search is successful and the 
+  target is highlighted. </LI></UL>
+<H5> Submission </H5>
+<UL>
+  <LI> Drop your executable file to folder Lab3 in the class DropBox by the due 
+  time.  </LI>
+  <LI> No Grace Time!  </LI>
+  <LI> The name of the executable file must be UserName_Lab3, where UserName is 
+  your UWP UserName. </LI>
+  <LI> Make sure the file name is correct. You will lose two points for 
+  incorrect file name.  </LI></UL></BODY></HTML>

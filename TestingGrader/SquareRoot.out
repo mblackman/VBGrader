@@ -1,0 +1,110 @@
+---------- 9 Points out of 10 Points ---------
+---------- 2 Errors  out of 31 Tests ----------
+Main Form Title: Lab 1 (Hiatt Dillon)
+Error in Component: frmMain
+          Property: Text
+          Expected: Lab1 (firstname lastname)
+         But Found: Lab 1 (Hiatt Dillon)
+
+Error in Component: Button2
+          Property: Text
+          Expected: E&xit
+         But Found: &Exit
+
+---------- 9.5 Points out of 10 Points ---------
+---------- 1 Errors  out of 35 Tests ----------
+Main Form Title: Lab 1 (Nathan)
+Error in Component: frmMain
+          Property: Text
+          Expected: Lab1 (firstname lastname)
+         But Found: Lab 1 (Nathan)
+
+---------- 7 Points out of 10 Points ---------
+---------- 6 Errors  out of 17 Tests ----------
+Main Form Title: Lab1 (Qi Yang)
+Error in Component: frmMain
+          Property: Text
+          Expected: Lab1 (firstname lastname)
+         But Found: Lab1 (Qi Yang)
+
+Error in Component: frmMain
+          Property: Height
+          Expected: 292
+         But Found: 400
+
+Error in Component: frmMain
+          Property: Width
+          Expected: 500
+         But Found: 600
+
+Error in Component: btnHello
+          Property: Text
+          Expected: &Compute
+         But Found: Hello
+
+Error in variable: msgLabel_line1
+          Expected: Incorrect Input!
+         But Found: Hello, -8!
+
+Error in variable: msgLabel_line2
+          Expected: Enter Again!
+         But Found: 
+
+---------- 7 Points out of 10 Points ---------
+---------- 6 Errors  out of 35 Tests ----------
+Main Form Title: Lab 1 (Scott Goble)
+Error in Component: frmMain
+          Property: Text
+          Expected: Lab1 (firstname lastname)
+         But Found: Lab 1 (Scott Goble)
+
+Error in Component: frmMain
+          Property: Height
+          Expected: 292
+         But Found: 302
+
+Error in Component: frmMain
+          Property: Width
+          Expected: 500
+         But Found: 490
+
+Error in Component: txtSquare
+          Property: TextAlign
+          Expected: Right
+         But Found: Left
+
+Error in Component: Button3
+          Property: Text
+          Expected: &Compute
+         But Found: Compute
+
+Error in Component: Button2
+          Property: Text
+          Expected: E&xit
+         But Found: Exit
+
+---------- 7.5 Points out of 10 Points ---------
+---------- 5 Errors  out of 31 Tests ----------
+Main Form Title: Lab 1 (Simmons Chase)
+Error in Component: frmMain
+          Property: Text
+          Expected: Lab1 (firstname lastname)
+         But Found: Lab 1 (Simmons Chase)
+
+Error in Component: Button2
+          Property: Text
+          Expected: E&xit
+         But Found: &Exit
+
+Error in variable: msgCaption
+          Expected: Lab 1
+         But Found: 
+
+Error in variable: msgLabel_line1
+          Expected: Incorrect Input!
+         But Found: 
+
+Error in variable: msgLabel_line2
+          Expected: Enter Again!
+         But Found: 
+

@@ -1,0 +1,2 @@
+Scripter counts all lines except blank. Including comments and finds. Fix this.
+Binding navigator buttons change.

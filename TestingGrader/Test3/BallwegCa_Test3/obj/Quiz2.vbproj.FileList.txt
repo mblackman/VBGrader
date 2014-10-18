@@ -1,0 +1,11 @@
+bin\Debug\Quiz2.exe
+bin\Debug\Quiz2.pdb
+bin\Debug\Quiz2.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\UWPCS234.Form1.resources
+obj\Debug\UWPCS234.Resources.resources
+obj\Debug\Quiz2.vbproj.GenerateResource.Cache
+obj\Debug\Quiz2.exe
+obj\Debug\Quiz2.xml
+obj\Debug\Quiz2.pdb
+obj\Debug\UWPCS234.Form2.resources

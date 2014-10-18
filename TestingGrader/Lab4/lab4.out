@@ -1,0 +1,32 @@
+---------- 16.5 Points out of 20 Points ---------
+---------- 7 Errors  out of 23 Tests ----------
+Main Form Title: Lab4 (Qi Yang)
+Error in Component: frmMain
+          Property: Text
+          Expected: Lab4 (firstname lastname)
+         But Found: Lab4 (Qi Yang)
+
+Error in variable: msgCaption
+          Expected: Lab 4
+         But Found: No msgCaption
+
+Error in variable: msgLabel_line1
+          Expected: Enter the principle please!
+         But Found: Unable to cast object of type 'System.Windows.Forms.ListBox' to type 'System.Windows.Forms.ToolStrip'.
+
+Error in variable: msgCaption
+          Expected: Lab 4
+         But Found: No msgCaption
+
+Error in variable: msgLabel_line1
+          Expected: Enter a start year!
+         But Found: Unable to cast object of type 'System.Windows.Forms.ListBox' to type 'System.Windows.Forms.ToolStrip'.
+
+Error in variable: msgCaption
+          Expected: Lab 4
+         But Found: No msgCaption
+
+Error in variable: msgLabel_line1
+          Expected: Enter an end year!
+         But Found: Unable to cast object of type 'System.Windows.Forms.ListBox' to type 'System.Windows.Forms.ToolStrip'.
+

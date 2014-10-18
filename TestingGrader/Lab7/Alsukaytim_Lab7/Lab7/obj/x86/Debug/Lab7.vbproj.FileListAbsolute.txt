@@ -1,0 +1,42 @@
+K:\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\bin\Debug\Lab7.exe
+K:\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\bin\Debug\Lab7.pdb
+K:\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\bin\Debug\Lab7.xml
+K:\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\obj\x86\Debug\ResolveAssemblyReference.cache
+K:\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\obj\x86\Debug\Lab7.Resources.resources
+K:\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\obj\x86\Debug\GenerateResource.read.1.tlog
+K:\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\obj\x86\Debug\GenerateResource.write.1.tlog
+K:\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\obj\x86\Debug\Lab7.exe
+K:\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\obj\x86\Debug\Lab7.xml
+K:\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\obj\x86\Debug\Lab7.pdb
+K:\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\obj\x86\Debug\Lab7.FormClassGrid.resources
+K:\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\obj\x86\Debug\Lab7.FormClassIndividual.resources
+K:\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\bin\Debug\Lab7.exe.config
+F:\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\obj\x86\Debug\Lab7.FormClassIndividual.resources
+F:\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\obj\x86\Debug\Lab7.Resources.resources
+F:\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\bin\Debug\Lab7.exe.config
+F:\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\bin\Debug\MyCompany.mdb
+F:\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\bin\Debug\Lab7.exe
+F:\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\bin\Debug\Lab7.pdb
+F:\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\bin\Debug\Lab7.xml
+F:\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\obj\x86\Debug\Lab7.exe
+F:\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\obj\x86\Debug\Lab7.xml
+F:\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\obj\x86\Debug\Lab7.pdb
+F:\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\obj\x86\Debug\Lab7.Form2.resources
+F:\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\obj\x86\Debug\GenerateResource.read.235.tlog
+K:\Flash Drive\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\bin\Debug\MyCompany.mdb
+K:\Flash Drive\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\bin\Debug\Lab7.exe.config
+K:\Flash Drive\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\bin\Debug\Lab7.exe
+K:\Flash Drive\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\bin\Debug\Lab7.pdb
+K:\Flash Drive\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\bin\Debug\Lab7.xml
+K:\Flash Drive\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\obj\x86\Debug\ResolveAssemblyReference.cache
+K:\Flash Drive\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\obj\x86\Debug\Lab7.FormClassGrid.resources
+K:\Flash Drive\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\obj\x86\Debug\Lab7.FormClassIndividual.resources
+K:\Flash Drive\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\obj\x86\Debug\Lab7.Resources.resources
+K:\Flash Drive\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\obj\x86\Debug\GenerateResource.read.1.tlog
+K:\Flash Drive\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\obj\x86\Debug\GenerateResource.write.1.tlog
+K:\Flash Drive\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\obj\x86\Debug\Lab7.exe
+K:\Flash Drive\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\obj\x86\Debug\Lab7.xml
+K:\Flash Drive\My FlashDrive\VB\Alsukaytim_Lab7\Lab7\obj\x86\Debug\Lab7.pdb

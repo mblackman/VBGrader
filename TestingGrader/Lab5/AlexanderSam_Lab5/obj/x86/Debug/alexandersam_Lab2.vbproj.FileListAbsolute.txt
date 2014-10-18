@@ -1,0 +1,14 @@
+J:\Classes\VB.net\alexandersam_Lab2\bin\Debug\alexandersam_Lab2.exe
+J:\Classes\VB.net\alexandersam_Lab2\bin\Debug\alexandersam_Lab2.pdb
+J:\Classes\VB.net\alexandersam_Lab2\bin\Debug\alexandersam_Lab2.xml
+J:\Classes\VB.net\alexandersam_Lab2\obj\x86\Debug\ResolveAssemblyReference.cache
+J:\Classes\VB.net\alexandersam_Lab2\obj\x86\Debug\alexandersam_Lab2.frmLab2.resources
+J:\Classes\VB.net\alexandersam_Lab2\obj\x86\Debug\alexandersam_Lab2.Resources.resources
+J:\Classes\VB.net\alexandersam_Lab2\obj\x86\Debug\GenerateResource.read.1.tlog
+J:\Classes\VB.net\alexandersam_Lab2\obj\x86\Debug\GenerateResource.write.1.tlog
+J:\Classes\VB.net\alexandersam_Lab2\obj\x86\Debug\alexandersam_Lab2.exe
+J:\Classes\VB.net\alexandersam_Lab2\obj\x86\Debug\alexandersam_Lab2.xml
+J:\Classes\VB.net\alexandersam_Lab2\obj\x86\Debug\alexandersam_Lab2.pdb
+C:\Users\Owner\Documents\Platteville\VB.NET\alexandersam_Lab5\obj\x86\Debug\alexandersam_Lab2.exe
+C:\Users\Owner\Documents\Platteville\VB.NET\alexandersam_Lab5\obj\x86\Debug\alexandersam_Lab2.xml
+C:\Users\Owner\Documents\Platteville\VB.NET\alexandersam_Lab5\obj\x86\Debug\alexandersam_Lab2.pdb

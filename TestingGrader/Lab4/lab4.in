@@ -1,0 +1,131 @@
+' The total point value of this asignment
+TotalPoints 20
+
+' Checks the content of the form
+Form frmMain
+	Text "Lab4 (firstname lastname)" 0.5
+	Height 500 0.5
+	Width 620 0.5
+	FormBorderStyle FixedSingle 0.5
+	WindowState Normal 0.5
+	StartPosition CenterScreen 0.5
+
+' Check menuStrip properties 
+Find MenuStrip menuStrip1 
+		
+Find ToolStripMenuItem mnuFile 
+	Text "&File" 0.5
+
+Find ToolStripMenuItem mnuCompute 
+	Text "&Compute" 0.5
+	ShortcutKeys "Ctrl+C" 0.5
+	
+Find ToolStripMenuItem mnuExit 
+	Text "E&xit" 0.5
+	ShortcutKeys "Ctrl+X" 0.5
+	
+Find ToolStripMenuItem mnuPeriods 
+
+Find ToolStripMenuItem mnuYearly 
+	Text "1" 0.5
+	ShortcutKeys "Ctrl+Y" 0.5
+	
+Find ToolStripMenuItem mnuQuarterly 
+	Text "4" 0.5
+	ShortcutKeys "Ctrl+Q" 0.5
+	
+Find ToolStripMenuItem mnuMonthly 
+	Text "12" 0.5
+	ShortcutKeys "Ctrl+M" 0.5
+	
+Find ToolStripMenuItem mnuDaily 
+	Text "365" 0.5
+	ShortcutKeys "Ctrl+D" 0.5
+
+Find ToolStripMenuItem mnuHelp 
+
+Find ToolStripMenuItem mnuAbout 
+	Text "&About" 0.5
+	ShortcutKeys "Ctrl+A" 0.5
+
+Find Label lblFV 
+	Text "Future Values" 0.5
+	"Font.Name" "Microsoft Sans Serif" 0.5
+	"Font.Size" 14 0.5
+	"Font.Bold" True 0.5
+	"Font.Underline" True 0.5
+
+Find Label lblPrinciple 
+	Text "Principal" 0.5
+Find Label lblStart 
+	Text "Start Year" 0.5
+Find Label lblRate 
+	Text "Rate" 0.5
+Find Label lblEnd 
+	Text "End Year" 0.5
+
+Find ListBox lstValue 
+	Height 193 0.5
+	Width 370 0.5
+	"Font.Name" "Courier New" 0.5
+	"Font.Size" 14 0.5
+
+Find TextBox txtPrinciple 
+Find TextBox txtEnd 
+Find TextBox txtStart 
+
+Find ComboBox cboRate 
+
+Aligned Top txtPrinciple cboRate 0.5
+
+Aligned Top txtStart txtEnd 0.5
+
+'Checks Tab Order
+TabOrder txtPrinciple cboRate txtStart txtEnd lstValue 0.5
+
+' Test clicking with no values entered
+setProperty txtStart Text ""
+setProperty txtEnd Text ""
+setProperty txtPrinciple Text ""
+click mnuFile
+click mnuCompute
+'sendkey frmMain "^{c}"
+expect msgCaption = "Lab 4" 0.5
+expect msgLabel_line1 = "Enter the principle please!" 0.5
+'Expect tabFocus txtPrinciple 0.5
+
+' Test entering just a principle value and hitting calc
+setProperty txtPrinciple Text 100
+click mnuFile
+click mnuCompute
+expect msgCaption = "Lab 4" 0.5
+expect "msgLabel_line1" = "Enter a start year!" 0.5
+'Expect tabFocus txtStart 0.5
+
+' Test entering start year and principle but no end year
+setProperty txtPrinciple Text 100
+setProperty txtStart Text 1
+click mnuFile
+click mnuCompute
+expect msgCaption = "Lab 4" 0.5
+expect "msgLabel_line1" = "Enter an end year!" 0.5
+'Expect tabFocus txtEnd 0.5
+
+' Test with all valid inputs
+setProperty txtPrinciple Text 250
+setProperty txtStart Text 5
+setProperty txtEnd Text 6
+click mnuFile
+click mnuCompute
+expect "lstValue.items((txtEnd.text-txtStart.Text + 2)" = "       6                $380.03" 0.5
+
+' Test with all valid inputs
+setProperty txtPrinciple Text 100
+setProperty txtStart Text 1
+setProperty txtEnd Text 3
+click mnuFile
+click mnuCompute
+expect "lstValue.items((txtEnd.text-txtStart.Text + 2)" = "       3                $123.29" 0.5
+
+' Test Alt + F4 doesn't close
+sendkey frmMain "%{F4}"

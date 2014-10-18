@@ -1,0 +1,24 @@
+E:\My FlashDrive\VB\Alsukaytim_Test4_P1\bin\Debug\UserName_Test4_P1.exe
+E:\My FlashDrive\VB\Alsukaytim_Test4_P1\bin\Debug\UserName_Test4_P1.pdb
+E:\My FlashDrive\VB\Alsukaytim_Test4_P1\bin\Debug\UserName_Test4_P1.xml
+E:\My FlashDrive\VB\Alsukaytim_Test4_P1\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\My FlashDrive\VB\Alsukaytim_Test4_P1\obj\x86\Debug\UserName_Test4_P1.Form1.resources
+E:\My FlashDrive\VB\Alsukaytim_Test4_P1\obj\x86\Debug\UserName_Test4_P1.Form2.resources
+E:\My FlashDrive\VB\Alsukaytim_Test4_P1\obj\x86\Debug\UserName_Test4_P1.Resources.resources
+E:\My FlashDrive\VB\Alsukaytim_Test4_P1\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\My FlashDrive\VB\Alsukaytim_Test4_P1\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\My FlashDrive\VB\Alsukaytim_Test4_P1\obj\x86\Debug\UserName_Test4_P1.exe
+E:\My FlashDrive\VB\Alsukaytim_Test4_P1\obj\x86\Debug\UserName_Test4_P1.xml
+E:\My FlashDrive\VB\Alsukaytim_Test4_P1\obj\x86\Debug\UserName_Test4_P1.pdb
+S:\Courses\CSSE\yangq\CS2340\DropBox\Test4_P2\Alsukaytim_Test4_P2\obj\x86\Debug\UserName_Test4_P1.exe
+S:\Courses\CSSE\yangq\CS2340\DropBox\Test4_P2\Alsukaytim_Test4_P2\obj\x86\Debug\UserName_Test4_P1.xml
+S:\Courses\CSSE\yangq\CS2340\DropBox\Test4_P2\Alsukaytim_Test4_P2\obj\x86\Debug\UserName_Test4_P1.pdb
+S:\Courses\CSSE\yangq\CS2340\DropBox\Test4_P2\Alsukaytim_Test4_P2\bin\Debug\UserName_Test4_P1.exe
+S:\Courses\CSSE\yangq\CS2340\DropBox\Test4_P2\Alsukaytim_Test4_P2\bin\Debug\UserName_Test4_P1.pdb
+S:\Courses\CSSE\yangq\CS2340\DropBox\Test4_P2\Alsukaytim_Test4_P2\bin\Debug\UserName_Test4_P1.xml
+S:\Courses\CSSE\yangq\CS2340\DropBox\Test4_P2\Alsukaytim_Test4_P2\obj\x86\Debug\ResolveAssemblyReference.cache
+S:\Courses\CSSE\yangq\CS2340\DropBox\Test4_P2\Alsukaytim_Test4_P2\obj\x86\Debug\UserName_Test4_P1.Form1.resources
+S:\Courses\CSSE\yangq\CS2340\DropBox\Test4_P2\Alsukaytim_Test4_P2\obj\x86\Debug\UserName_Test4_P1.Form2.resources
+S:\Courses\CSSE\yangq\CS2340\DropBox\Test4_P2\Alsukaytim_Test4_P2\obj\x86\Debug\UserName_Test4_P1.Resources.resources
+S:\Courses\CSSE\yangq\CS2340\DropBox\Test4_P2\Alsukaytim_Test4_P2\obj\x86\Debug\GenerateResource.read.1.tlog
+S:\Courses\CSSE\yangq\CS2340\DropBox\Test4_P2\Alsukaytim_Test4_P2\obj\x86\Debug\GenerateResource.write.1.tlog

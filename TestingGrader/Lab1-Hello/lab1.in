@@ -1,0 +1,71 @@
+' The total point value of this lab
+TotalPoints 10
+
+Find
+     Form frmLab1
+	 TextBox txtName
+	 Label lblName
+	 Button btnHello
+End Find
+
+' Checks the content of the form
+Prop frmLab1
+'	Text "Lab1 (firstname lastname)" 0.5
+	Height 400 0.5
+	Width 600 0.5
+	FormBorderStyle Fixed3D 0.5
+	WindowState Normal 0.5
+	StartPosition CenterScreen 0.5
+End Prop
+	
+' Checks txtName Properties
+Prop txtName 
+	Name txtName 0.5
+	Multiline False 0.5
+	Height 20 0.5
+	Width 150 0.5
+	Centered Horizontal 0.5
+	Centered Vertical 0.5
+End Prop
+	
+' Checks lblName Properties
+Prop lblName 
+	Name lblName 0.5
+	AutoSize True 0.5
+	Text "Enter Your Name" 0.5
+	Centered Horizontal 0.5
+End Prop
+	
+' Checks btnHello Properties
+Prop btnHello 
+	Name btnHello 0.5
+	Text Hello 0.5
+	Centered Horizontal 0.5
+End Prop
+	
+' Tests tab order
+TabOrder txtName btnHello 0.5
+
+' Checks if lblName and txtName are left aligned
+Aligned Center lblName txtName 0.5
+
+' Checks if btnHello and txtName are left aligned
+Aligned Center txtName btnHello 0.5
+
+' Test for good input
+SetProperty txtName Text "Bob Roberts"
+Click btnHello
+Expect msgCaption = "Lab 1" 0.5
+Expect msgLabel_line1 = "Hello, Bob Roberts!" 1
+
+' Test for empty input
+SetProperty txtName Text ""
+Click btnHello
+Expect msgCaption = "Lab 1" 0.5
+Expect msgLabel_line1 = "Enter Your Name Please!" 1
+
+' Test for empty input with spaces
+SetProperty txtName Text "   "
+Click btnHello
+Expect msgCaption = "Lab 1" 0.5
+Expect msgLabel_line1 = "Enter Your Name Please!" 1

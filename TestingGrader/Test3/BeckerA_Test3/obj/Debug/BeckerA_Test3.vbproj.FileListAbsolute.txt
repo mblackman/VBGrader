@@ -1,0 +1,12 @@
+J:\VB.net\BeckerA_Test3\bin\Debug\BeckerA_Test3.exe
+J:\VB.net\BeckerA_Test3\bin\Debug\BeckerA_Test3.pdb
+J:\VB.net\BeckerA_Test3\bin\Debug\BeckerA_Test3.xml
+J:\VB.net\BeckerA_Test3\obj\Debug\ResolveAssemblyReference.cache
+J:\VB.net\BeckerA_Test3\obj\Debug\UWPCS234.frmSqrt.resources
+J:\VB.net\BeckerA_Test3\obj\Debug\UWPCS234.frmBack.resources
+J:\VB.net\BeckerA_Test3\obj\Debug\UWPCS234.Resources.resources
+J:\VB.net\BeckerA_Test3\obj\Debug\ResGen.read.1.tlog
+J:\VB.net\BeckerA_Test3\obj\Debug\ResGen.write.1.tlog
+J:\VB.net\BeckerA_Test3\obj\Debug\BeckerA_Test3.exe
+J:\VB.net\BeckerA_Test3\obj\Debug\BeckerA_Test3.xml
+J:\VB.net\BeckerA_Test3\obj\Debug\BeckerA_Test3.pdb

@@ -1,0 +1,17 @@
+J:\VB\frmLab2\obj\x86\Debug\ResolveAssemblyReference.cache
+J:\VB\frmLab2\obj\x86\Debug\frmLab2.Form1.resources
+J:\VB\frmLab2\obj\x86\Debug\frmLab2.Resources.resources
+J:\VB\frmLab2\obj\x86\Debug\GenerateResource.read.1.tlog
+J:\VB\frmLab2\obj\x86\Debug\GenerateResource.write.1.tlog
+J:\VB\frmLab2\bin\Debug\frmLab2.exe
+J:\VB\frmLab2\bin\Debug\frmLab2.pdb
+J:\VB\frmLab2\bin\Debug\frmLab2.xml
+J:\VB\frmLab2\obj\x86\Debug\frmLab2.exe
+J:\VB\frmLab2\obj\x86\Debug\frmLab2.xml
+J:\VB\frmLab2\obj\x86\Debug\frmLab2.pdb
+J:\old VB\frmLab2\obj\x86\Debug\frmLab2.exe
+J:\old VB\frmLab2\obj\x86\Debug\frmLab2.xml
+J:\old VB\frmLab2\obj\x86\Debug\frmLab2.pdb
+J:\VB\frmLab5\obj\x86\Debug\frmLab2.exe
+J:\VB\frmLab5\obj\x86\Debug\frmLab2.xml
+J:\VB\frmLab5\obj\x86\Debug\frmLab2.pdb

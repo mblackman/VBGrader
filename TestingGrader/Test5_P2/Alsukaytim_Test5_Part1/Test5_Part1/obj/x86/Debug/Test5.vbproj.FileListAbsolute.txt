@@ -1,0 +1,13 @@
+S:\Courses\CSSE\yangq\CS2340\DropBox\Test5_P2\Alsukaytim_Test5_Part1\Test5_Part1\bin\Debug\Test5_Part1.exe.config
+S:\Courses\CSSE\yangq\CS2340\DropBox\Test5_P2\Alsukaytim_Test5_Part1\Test5_Part1\obj\x86\Debug\Test5_Part1.exe
+S:\Courses\CSSE\yangq\CS2340\DropBox\Test5_P2\Alsukaytim_Test5_Part1\Test5_Part1\obj\x86\Debug\Test5_Part1.xml
+S:\Courses\CSSE\yangq\CS2340\DropBox\Test5_P2\Alsukaytim_Test5_Part1\Test5_Part1\obj\x86\Debug\Test5_Part1.pdb
+S:\Courses\CSSE\yangq\CS2340\DropBox\Test5_P2\Alsukaytim_Test5_Part1\Test5_Part1\bin\Debug\Test5_Part1.exe
+S:\Courses\CSSE\yangq\CS2340\DropBox\Test5_P2\Alsukaytim_Test5_Part1\Test5_Part1\bin\Debug\Test5_Part1.pdb
+S:\Courses\CSSE\yangq\CS2340\DropBox\Test5_P2\Alsukaytim_Test5_Part1\Test5_Part1\bin\Debug\Test5_Part1.xml
+S:\Courses\CSSE\yangq\CS2340\DropBox\Test5_P2\Alsukaytim_Test5_Part1\Test5_Part1\obj\x86\Debug\ResolveAssemblyReference.cache
+S:\Courses\CSSE\yangq\CS2340\DropBox\Test5_P2\Alsukaytim_Test5_Part1\Test5_Part1\obj\x86\Debug\Test5_Part1.FormClassList.resources
+S:\Courses\CSSE\yangq\CS2340\DropBox\Test5_P2\Alsukaytim_Test5_Part1\Test5_Part1\obj\x86\Debug\Test5_Part1.FormClassAll.resources
+S:\Courses\CSSE\yangq\CS2340\DropBox\Test5_P2\Alsukaytim_Test5_Part1\Test5_Part1\obj\x86\Debug\Test5_Part1.Resources.resources
+S:\Courses\CSSE\yangq\CS2340\DropBox\Test5_P2\Alsukaytim_Test5_Part1\Test5_Part1\obj\x86\Debug\GenerateResource.read.1.tlog
+S:\Courses\CSSE\yangq\CS2340\DropBox\Test5_P2\Alsukaytim_Test5_Part1\Test5_Part1\obj\x86\Debug\GenerateResource.write.1.tlog

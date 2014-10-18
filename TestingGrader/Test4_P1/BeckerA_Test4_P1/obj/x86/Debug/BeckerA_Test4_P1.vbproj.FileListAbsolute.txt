@@ -1,0 +1,15 @@
+J:\VB.net\BeckerA_Test4_P1\bin\Debug\BeckerA_Test4_P1.exe
+J:\VB.net\BeckerA_Test4_P1\bin\Debug\BeckerA_Test4_P1.pdb
+J:\VB.net\BeckerA_Test4_P1\bin\Debug\BeckerA_Test4_P1.xml
+J:\VB.net\BeckerA_Test4_P1\obj\x86\Debug\ResolveAssemblyReference.cache
+J:\VB.net\BeckerA_Test4_P1\obj\x86\Debug\BeckerA_Test4_P1.frmUsers.resources
+J:\VB.net\BeckerA_Test4_P1\obj\x86\Debug\BeckerA_Test4_P1.frmData.resources
+J:\VB.net\BeckerA_Test4_P1\obj\x86\Debug\BeckerA_Test4_P1.Resources.resources
+J:\VB.net\BeckerA_Test4_P1\obj\x86\Debug\GenerateResource.read.1.tlog
+J:\VB.net\BeckerA_Test4_P1\obj\x86\Debug\GenerateResource.write.1.tlog
+J:\VB.net\BeckerA_Test4_P1\obj\x86\Debug\BeckerA_Test4_P1.exe
+J:\VB.net\BeckerA_Test4_P1\obj\x86\Debug\BeckerA_Test4_P1.xml
+J:\VB.net\BeckerA_Test4_P1\obj\x86\Debug\BeckerA_Test4_P1.pdb
+S:\Courses\CSSE\yangq\CS2340\DROPBOX\Test4_P1\BeckerA_Test4_P1\obj\x86\Debug\BeckerA_Test4_P1.exe
+S:\Courses\CSSE\yangq\CS2340\DROPBOX\Test4_P1\BeckerA_Test4_P1\obj\x86\Debug\BeckerA_Test4_P1.xml
+S:\Courses\CSSE\yangq\CS2340\DROPBOX\Test4_P1\BeckerA_Test4_P1\obj\x86\Debug\BeckerA_Test4_P1.pdb

@@ -1,0 +1,13 @@
+J:\VB\Ballwegca_Test5_Part2\Ballwegca_Test5_Part2\bin\Debug\Ballwegca_Test5_Part2.exe.config
+J:\VB\Ballwegca_Test5_Part2\Ballwegca_Test5_Part2\bin\Debug\Ballwegca_Test5_Part2.exe
+J:\VB\Ballwegca_Test5_Part2\Ballwegca_Test5_Part2\bin\Debug\Ballwegca_Test5_Part2.pdb
+J:\VB\Ballwegca_Test5_Part2\Ballwegca_Test5_Part2\bin\Debug\Ballwegca_Test5_Part2.xml
+J:\VB\Ballwegca_Test5_Part2\Ballwegca_Test5_Part2\obj\x86\Debug\ResolveAssemblyReference.cache
+J:\VB\Ballwegca_Test5_Part2\Ballwegca_Test5_Part2\obj\x86\Debug\Ballwegca_Test5_Part2.Form1.resources
+J:\VB\Ballwegca_Test5_Part2\Ballwegca_Test5_Part2\obj\x86\Debug\Ballwegca_Test5_Part2.Resources.resources
+J:\VB\Ballwegca_Test5_Part2\Ballwegca_Test5_Part2\obj\x86\Debug\GenerateResource.read.1.tlog
+J:\VB\Ballwegca_Test5_Part2\Ballwegca_Test5_Part2\obj\x86\Debug\GenerateResource.write.1.tlog
+J:\VB\Ballwegca_Test5_Part2\Ballwegca_Test5_Part2\obj\x86\Debug\Ballwegca_Test5_Part2.exe
+J:\VB\Ballwegca_Test5_Part2\Ballwegca_Test5_Part2\obj\x86\Debug\Ballwegca_Test5_Part2.xml
+J:\VB\Ballwegca_Test5_Part2\Ballwegca_Test5_Part2\obj\x86\Debug\Ballwegca_Test5_Part2.pdb
+J:\VB\Ballwegca_Test5_Part2\Ballwegca_Test5_Part2\obj\x86\Debug\Ballwegca_Test5_Part2.Form2.resources

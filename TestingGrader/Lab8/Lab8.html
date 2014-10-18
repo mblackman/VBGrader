@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head><title>
+CS 2340: Programming in VB.NET
+</title></head>
+
+<body>
+
+<center><h4>
+         CS 2340 - Lab 8: Database Queries (35 Points)
+<br />
+Due 9 PM, Monday, December 3, 2012
+
+</h4></center>
+
+Create a VB.NET program in MS Visual Studio 2010 to display and search records of a database table.
+The program has one form only.
+The database file is MyCompany.mdb and it <b>must</b> be in folder C:\Temp.
+
+
+<h5> The Description </h5>
+<ul>
+<li> The form has no control box and its title is "Lab8."
+     The StartPosition is center screen, the Window state is normal, and the FormBorderStyle is Sizable. </li>
+     
+<li> The initial size is (800, 450) and the minimum size is (530, 380). </li>
+
+<li> The form has a ReadOnly DataGridView of size (520, 220). It has six columns, and the column header text is
+     "ID", "Last Name", "First Name", "Full Time", "Hire Date" and "Salary", respectively.
+     It has a width of 50 for column ID, 95 for column Last Name and First Name, 70 for column Full Time, 80 for column Hire Date,
+     and 70 for column Salary. </li>
+
+<li> The DataGridView has a vertical scroll bar, but not the horizontal scroll bar. </li>
+
+<li> The values of ID are centered, that of Last Name and First Name are left aligned,
+     that of Hire Date and Salary are right aligned.
+     The Hire Date is in the short date format, and Salary is in Currency format without any decimal digits. </li>
+
+<li> There are two labels above the DataGridView.
+     One label has text "Employees," and the other "Created by " followed by your full name. 
+     The AutoSize of both labels is true.
+     The font of the title label is MS Sans Serif 16, bold and underlined,
+     and the font of the created label is MS Sans Serif 14, italic and underlined.  </li>
+
+<li> The standard DataGridView binding navigator is on the top of the form,
+     but the Add, Delete, and Save buttons are removed.
+     The navigator has six additional ToolStripButtons, and the text is
+     "Full Time," "Part Time," "All Employees," "Search on Salary," "Search on Last Name," and "Exit." </li>
+
+<li> The form has a StatusStrip at the bottom. 
+     The StatusStrip has three labels to display some useful information. 
+     The first one displays the query information with boarder style RaisedOuter,
+     the second displays the current date in long date format with boarder style RaisedInner,
+     and the last one displays the current time in long time format with board style Raised. 
+     All three labels are fixed size with width being 150, 180 and 120, respectively. </li>
+
+<li> The query label will always be displayed to the left side of the StatusStrip,
+     the time label will always be displayed to the right side, and the date label
+     will always be next to the time label. </li>     
+     
+<li> The time displayed must be updated every two seconds and also after a query is executed. </li>     
+
+<li> When the form is displayed, all records of table SalesStaff are listed in the grid, and the
+     navigation commands on the navigator toolbar must work as expected.  
+     The query label should display "All Employees," and both date and time should be displayed. </li>    
+
+<li> Clicking on the Full Time button, only full time employees are displayed in the grid,
+     and the query label will display "Full Time Employees."  </li>
+
+<li> Clicking on the Part Time button, only part time employees are displayed in the grid,
+     and the query label will display "Part Time Employees."  </li>
+
+<li> Clicking on the All Employees button, all employees are displayed in the grid,
+     the query label will display "All Employees."  </li>
+
+<li> Clicking on the Search on Salary button, an inputbox will be displayed with title
+     "Search on Salary" and prompt "Enter the salary lower limit: ".
+     If the user enters a number and presses the OK button, then only employees with a salary
+     greater than or equal to the entered limit will be displayed in the grid, 
+     and the query label will display "Salary >= " followed by the entered limit in currency format
+     without any decimal digits.
+     If the user input does not represent a number, including strings such as "2e3",
+     or the user clicks on the Cancel button, then nothing will change on the form. </li>
+
+<li> Clicking on the Search on Last Name button, an inputbox will be displayed with title
+     "Search on Last Name" and prompt "Enter the starting part of last name: ".
+     If the user enters a string with at least one non-space character and presses the OK button, 
+     then only employees whose last name start with the input string (after triming all spaces on both ends) 
+     will be displayed in the grid, and the query label will display "Last Name starting with " followed by 
+     the entered string (after triming all spaces on both ends) in <b>double quotes</b>.
+     If the user input does not contain a non-space character,
+     or the user clicks on the Cancel button, then nothing will change on the form. </li>
+
+<li> (2 points) The search on last name should be case sensitive. </li>
+
+<li> The total number of rows displayed on the navigation toolstrip should be updated to
+     show the number of row of the current query.  </li>
+     
+<li> Clicking on the Exit button will terminate the program. </li>
+
+<li> When the form is resized, including loaded at the beginning, the controls will be placed
+     on the form as follows:
+     <ul>
+     <li> Horizontally, the left margin of the title label is 3/5 of the right margin of the title label;
+          the left margin of the created label is 2/3 of the right margin of the created label;
+          and the right margin of the grid is 5/8 of the left margin of the grid. </li>
+     <li> Vertically, the space between the grid and the created label is the same as the bottom margin
+          (the space between the datagridview and the statusstrip),
+          which is 2/3 of the top margin (the space between the title label and the navigator), 
+          and the space between the two labels is 1/3 of the top margin. </li>
+     </ul>
+     </li>
+</ul>
+
+
+<h5> Submission </h5>
+<ul>
+<li> Name your solution folder as UserName_Lab8 using your UserName and drop the entire folder
+     to folder Lab8 of the class Dropbox by the due time. 
+</li>
+
+</ul>
+
+</body>
+</html>

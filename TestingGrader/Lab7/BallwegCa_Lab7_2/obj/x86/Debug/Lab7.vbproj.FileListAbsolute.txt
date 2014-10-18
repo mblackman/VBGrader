@@ -1,0 +1,13 @@
+J:\VB\Lab7\bin\Debug\Lab7.exe.config
+J:\VB\Lab7\bin\Debug\Lab7.exe
+J:\VB\Lab7\bin\Debug\Lab7.pdb
+J:\VB\Lab7\bin\Debug\Lab7.xml
+J:\VB\Lab7\obj\x86\Debug\ResolveAssemblyReference.cache
+J:\VB\Lab7\obj\x86\Debug\Lab7.Form1.resources
+J:\VB\Lab7\obj\x86\Debug\Lab7.Form2.resources
+J:\VB\Lab7\obj\x86\Debug\Lab7.Resources.resources
+J:\VB\Lab7\obj\x86\Debug\GenerateResource.read.1.tlog
+J:\VB\Lab7\obj\x86\Debug\GenerateResource.write.1.tlog
+J:\VB\Lab7\obj\x86\Debug\Lab7.exe
+J:\VB\Lab7\obj\x86\Debug\Lab7.xml
+J:\VB\Lab7\obj\x86\Debug\Lab7.pdb

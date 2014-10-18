@@ -1,0 +1,16 @@
+J:\VB.net\BeckerA_Lab8\bin\Debug\BeckerA_Lab8.exe.config
+J:\VB.net\BeckerA_Lab8\bin\Debug\BeckerA_Lab8.exe
+J:\VB.net\BeckerA_Lab8\bin\Debug\BeckerA_Lab8.pdb
+J:\VB.net\BeckerA_Lab8\bin\Debug\BeckerA_Lab8.xml
+J:\VB.net\BeckerA_Lab8\obj\x86\Debug\ResolveAssemblyReference.cache
+J:\VB.net\BeckerA_Lab8\obj\x86\Debug\BeckerA_Lab8.FormEmployees.resources
+J:\VB.net\BeckerA_Lab8\obj\x86\Debug\BeckerA_Lab8.Resources.resources
+J:\VB.net\BeckerA_Lab8\obj\x86\Debug\GenerateResource.read.1.tlog
+J:\VB.net\BeckerA_Lab8\obj\x86\Debug\GenerateResource.write.1.tlog
+J:\VB.net\BeckerA_Lab8\obj\x86\Debug\BeckerA_Lab8.exe
+J:\VB.net\BeckerA_Lab8\obj\x86\Debug\BeckerA_Lab8.xml
+J:\VB.net\BeckerA_Lab8\obj\x86\Debug\BeckerA_Lab8.pdb
+S:\Courses\CSSE\yangq\CS2340\DROPBOX\LAB8\BeckerA_Lab8\bin\Debug\BeckerA_Lab8.exe.config
+S:\Courses\CSSE\yangq\CS2340\DROPBOX\LAB8\BeckerA_Lab8\obj\x86\Debug\BeckerA_Lab8.exe
+S:\Courses\CSSE\yangq\CS2340\DROPBOX\LAB8\BeckerA_Lab8\obj\x86\Debug\BeckerA_Lab8.xml
+S:\Courses\CSSE\yangq\CS2340\DROPBOX\LAB8\BeckerA_Lab8\obj\x86\Debug\BeckerA_Lab8.pdb

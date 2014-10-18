@@ -1,0 +1,43 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+frmLab5
+</name>
+</assembly>
+<members>
+<member name="M:frmLab2.Module1.Compute(System.Double,System.Double,System.Double@,System.Double@,System.Double@)">
+	<summary>
+	</summary>
+	<param name="rate"></param>
+	<param name="hours"></param>
+	<param name="gross"></param>
+	<param name="deduction"></param>
+	<param name="net"></param>
+	<remarks></remarks>
+</member><member name="M:frmLab2.Module1.UpdateStats(System.Double)">
+	<summary>
+ This is my update function.
+ </summary>
+	<param name="NewGross">We cellect stats only for gross pay.</param>
+	<remarks>this is my remarks </remarks>
+</member><member name="M:frmLab2.Module1.main">
+	<summary>
+	</summary>
+	<remarks></remarks>
+</member><member name="P:frmLab2.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:frmLab2.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:frmLab2.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

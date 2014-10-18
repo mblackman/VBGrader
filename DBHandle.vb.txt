@@ -1,0 +1,76 @@
+﻿Imports System.IO
+Imports DAO
+Imports System.Data.OleDb
+
+Public Class DBhandle
+   Private _programDBFilePath As String = "C:\Temp\Test5.mdb"   ' The progam should always use this path
+   Private _localDBFilePath As String
+   Private _localDBCopy As String = "TempCopy.mdb"
+
+   ' Gets nothing, the local path should remain hidden
+   ' Sets the value of _localDBFilePath which contains the location of the database to be copied
+   Public WriteOnly Property FilePath() As String
+      Set(value As String)
+         _localDBFilePath = value
+      End Set
+   End Property
+
+   ' Makes a copy of our databse to be tested on the local machine
+   ' Add referense to Microsoft DAO 3.X object Library
+   ' @Referenses links:
+   ' http://social.msdn.microsoft.com/Forums/en-US/vbgeneral/thread/0dacf318-24fa-4962-91b5-69a246c6684d/
+   Public Sub WriteOutDatabase()
+      Dim tempFile As String = "tempBackUp.mdb"
+
+      If File.Exists(_localDBFilePath) Then
+         Dim db As New DAO.DBEngine
+         ' Firstly backup *.mdb database to temp file
+         db.CompactDatabase(_localDBFilePath, tempFile)
+
+         ' Secondly copy temp file to destination file
+         File.Copy(tempFile, _programDBFilePath, True)
+
+         ' Lastly delete the temp file in order to get rid of the "Database Exists" issue
+         File.Delete(tempFile)
+      End If
+   End Sub
+
+   ' Creates a local copy to test of the database file used by the tested program
+   Private Sub CopyDB()
+      Dim tempFile As String = "tempBackUp.mdb"
+
+      If File.Exists(_programDBFilePath) Then
+         Dim db As New DAO.DBEngine
+         ' Firstly backup *.mdb database to temp file
+         db.CompactDatabase(_programDBFilePath, tempFile)
+
+         ' Secondly copy temp file to destination file
+         File.Copy(tempFile, _localDBCopy, True)
+
+         ' Lastly delete the temp file in order to get rid of the "Database Exists" issue
+         File.Delete(tempFile)
+      End If
+   End Sub
+
+   ' Checks the database for a given record in a given table
+   Public Function CheckForRecord(ByVal lookupValue As String, ByVal table As String, ByVal key As String) As Boolean
+      'CopyDB()
+      Dim found As Boolean = False
+      Dim query As String = "SELECT * FROM Employee Where " & table & " Like " & lookupValue
+      Dim Connection As OleDb.OleDbConnection = New OleDbConnection("Provider=Microsoft.jet.oledb.4.0;data source=" & _localDBCopy)
+      Dim Command As New OleDbCommand(query, Connection)
+      Command.Parameters.AddWithValue("@" & table, lookupValue)
+      Command.Parameters.AddWithValue("@EmpID", key)
+
+      Connection.Open()
+      Using myDataReader As OleDbDataReader = Command.ExecuteReader()
+         If myDataReader.Read() Then
+            If myDataReader.Item(table).ToString = lookupValue Then
+               found = True
+            End If
+         End If
+      End Using
+      Connection.Close()
+      Return found
+   End Function
+End Class

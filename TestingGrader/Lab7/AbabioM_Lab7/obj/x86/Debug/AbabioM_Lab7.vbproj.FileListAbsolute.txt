@@ -1,0 +1,25 @@
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab7\AbabioM_Lab7\bin\Debug\AbabioM_Lab7.exe.config
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab7\AbabioM_Lab7\bin\Debug\AbabioM_Lab7.exe
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab7\AbabioM_Lab7\bin\Debug\AbabioM_Lab7.pdb
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab7\AbabioM_Lab7\bin\Debug\AbabioM_Lab7.xml
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab7\AbabioM_Lab7\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab7\AbabioM_Lab7\obj\x86\Debug\AbabioM_Lab7.Form1.resources
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab7\AbabioM_Lab7\obj\x86\Debug\AbabioM_Lab7.Resources.resources
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab7\AbabioM_Lab7\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab7\AbabioM_Lab7\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab7\AbabioM_Lab7\obj\x86\Debug\AbabioM_Lab7.exe
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab7\AbabioM_Lab7\obj\x86\Debug\AbabioM_Lab7.xml
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab7\AbabioM_Lab7\obj\x86\Debug\AbabioM_Lab7.pdb
+E:\Lab7\AbabioM_Lab7\bin\Debug\AbabioM_Lab7.exe.config
+E:\Lab7\AbabioM_Lab7\obj\x86\Debug\AbabioM_Lab7.exe
+E:\Lab7\AbabioM_Lab7\obj\x86\Debug\AbabioM_Lab7.xml
+E:\Lab7\AbabioM_Lab7\obj\x86\Debug\AbabioM_Lab7.pdb
+E:\Lab7\AbabioM_Lab7\bin\Debug\AbabioM_Lab7.exe
+E:\Lab7\AbabioM_Lab7\bin\Debug\AbabioM_Lab7.pdb
+E:\Lab7\AbabioM_Lab7\bin\Debug\AbabioM_Lab7.xml
+E:\Lab7\AbabioM_Lab7\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Lab7\AbabioM_Lab7\obj\x86\Debug\AbabioM_Lab7.Form1.resources
+E:\Lab7\AbabioM_Lab7\obj\x86\Debug\AbabioM_Lab7.Resources.resources
+E:\Lab7\AbabioM_Lab7\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Lab7\AbabioM_Lab7\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Lab7\AbabioM_Lab7\obj\x86\Debug\AbabioM_Lab7.Form2.resources

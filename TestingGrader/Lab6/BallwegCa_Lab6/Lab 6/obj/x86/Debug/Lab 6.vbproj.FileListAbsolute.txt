@@ -1,0 +1,12 @@
+J:\VB\Lab 6\Lab 6\obj\x86\Debug\ResolveAssemblyReference.cache
+J:\VB\Lab 6\Lab 6\obj\x86\Debug\Lab_6.Form1.resources
+J:\VB\Lab 6\Lab 6\obj\x86\Debug\Lab_6.Form2.resources
+J:\VB\Lab 6\Lab 6\obj\x86\Debug\Lab_6.Resources.resources
+J:\VB\Lab 6\Lab 6\obj\x86\Debug\GenerateResource.read.1.tlog
+J:\VB\Lab 6\Lab 6\obj\x86\Debug\GenerateResource.write.1.tlog
+J:\VB\Lab 6\Lab 6\bin\Debug\Lab 6.exe
+J:\VB\Lab 6\Lab 6\bin\Debug\Lab 6.pdb
+J:\VB\Lab 6\Lab 6\bin\Debug\Lab 6.xml
+J:\VB\Lab 6\Lab 6\obj\x86\Debug\Lab 6.exe
+J:\VB\Lab 6\Lab 6\obj\x86\Debug\Lab 6.xml
+J:\VB\Lab 6\Lab 6\obj\x86\Debug\Lab 6.pdb

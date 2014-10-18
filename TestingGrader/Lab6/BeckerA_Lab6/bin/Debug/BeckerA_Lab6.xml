@@ -1,0 +1,217 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BeckerA_Lab6
+</name>
+</assembly>
+<members>
+<member name="M:BeckerA_Lab6.Module1.UserClosingForm(System.Windows.Forms.FormClosingEventArgs)">
+	<summary>
+ Refuses to close a form when the user tries to close it
+ by clicking on the form close button or press Alt+F4.
+ </summary>
+	<param name="e"> Copied from the FormClosing event procedure of any form. </param>
+	<remarks>You add remarks here</remarks>
+</member><member name="M:BeckerA_Lab6.Module1.Main">
+	<summary>
+ Runs the program, starting with the FormClasses form
+ </summary>
+	<remarks></remarks>
+</member><member name="P:BeckerA_Lab6.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:BeckerA_Lab6.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:BeckerA_Lab6.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:BeckerA_Lab6.frmClasses.frmClasses_Load(System.Object,System.EventArgs)">
+	<summary>
+ Sets up the available listbox when loaded
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:BeckerA_Lab6.frmClasses.btnSelect_Click(System.Object,System.EventArgs)">
+	<summary>
+ Move the selected classes from lstAvailable to lstSelected
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:BeckerA_Lab6.frmClasses.lstAvailable_MouseDoubleClick(System.Object,System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ Moves the selected class to the selected listbox then removes it
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:BeckerA_Lab6.frmClasses.btnRemove_Click(System.Object,System.EventArgs)">
+	<summary>
+ Moves the selected classes back to the available listbox
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:BeckerA_Lab6.frmClasses.btnRemoveAll_Click(System.Object,System.EventArgs)">
+	<summary>
+ Removes all the items from the selected class listbox and puts them back
+ in the available classes box
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:BeckerA_Lab6.frmClasses.lstSelected_MouseDoubleClick(System.Object,System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ Removes the item double clicked on and puts it back in the available box
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:BeckerA_Lab6.frmClasses.ResetListBoxesToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Resets the list boxes.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks>Same functionality as the Remove All button</remarks>
+</member><member name="M:BeckerA_Lab6.frmClasses.frmClasses_Resize(System.Object,System.EventArgs)">
+	<summary>
+ Dynamically positions the elements of the form as it's resized
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:BeckerA_Lab6.frmClasses.NextToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Switches to the next form
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:BeckerA_Lab6.frmClasses.ExitToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Exits the program
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:BeckerA_Lab6.frmClasses.frmClasses_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+	<summary>
+ Checks to see if we're exiting properly
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:BeckerA_Lab6.frmPayment.UpdateCost">
+	<summary>
+ Updates the cost
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BeckerA_Lab6.frmPayment.BackToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Switches back to the first form
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:BeckerA_Lab6.frmPayment.cbMealPlan_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+ Updates the total witht he new meal plan
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:BeckerA_Lab6.frmPayment.rbWisconsin_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ Checks to see if the button is selected, then updates the cost if it is
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:BeckerA_Lab6.frmPayment.rbResYes_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ Checks to see if the button is selected, then updates the cost if it is
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:BeckerA_Lab6.frmPayment.rbResNo_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ Checks to see if the button is selected, then updates the cost if it is
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:BeckerA_Lab6.frmPayment.rbParkingYes_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ Checks to see if the button is selected, then updates the cost if it is
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:BeckerA_Lab6.frmPayment.rbParkingNo_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ Checks to see if the button is selected, then updates the cost if it is
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:BeckerA_Lab6.frmPayment.rbMinnesota_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ Checks to see if the button is selected, then updates the cost if it is
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:BeckerA_Lab6.frmPayment.rbTriState_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ Checks to see if the button is selected, then updates the cost if it is
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:BeckerA_Lab6.frmPayment.rbNonResident_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ Checks to see if the button is selected, then updates the cost if it is
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:BeckerA_Lab6.frmPayment.rbInternational_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ Checks to see if the button is selected, then updates the cost if it is
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:BeckerA_Lab6.frmPayment.ExitToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Exits the program
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:BeckerA_Lab6.frmPayment.frmPayment_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+	<summary>
+ Checks to see if we're properly closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:BeckerA_Lab6.frmPayment.frmPayment_Load(System.Object,System.EventArgs)">
+	<summary>
+ Set up the combo box
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

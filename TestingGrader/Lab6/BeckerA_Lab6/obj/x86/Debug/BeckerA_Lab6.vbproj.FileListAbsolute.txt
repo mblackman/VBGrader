@@ -1,0 +1,12 @@
+J:\VB.net\BeckerA_Lab6\bin\Debug\BeckerA_Lab6.exe
+J:\VB.net\BeckerA_Lab6\bin\Debug\BeckerA_Lab6.pdb
+J:\VB.net\BeckerA_Lab6\bin\Debug\BeckerA_Lab6.xml
+J:\VB.net\BeckerA_Lab6\obj\x86\Debug\ResolveAssemblyReference.cache
+J:\VB.net\BeckerA_Lab6\obj\x86\Debug\BeckerA_Lab6.frmClasses.resources
+J:\VB.net\BeckerA_Lab6\obj\x86\Debug\BeckerA_Lab6.Resources.resources
+J:\VB.net\BeckerA_Lab6\obj\x86\Debug\GenerateResource.read.1.tlog
+J:\VB.net\BeckerA_Lab6\obj\x86\Debug\GenerateResource.write.1.tlog
+J:\VB.net\BeckerA_Lab6\obj\x86\Debug\BeckerA_Lab6.exe
+J:\VB.net\BeckerA_Lab6\obj\x86\Debug\BeckerA_Lab6.xml
+J:\VB.net\BeckerA_Lab6\obj\x86\Debug\BeckerA_Lab6.pdb
+J:\VB.net\BeckerA_Lab6\obj\x86\Debug\BeckerA_Lab6.frmPayment.resources

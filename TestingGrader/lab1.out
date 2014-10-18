@@ -1,0 +1,113 @@
+---------- 6 Points out of 10 Points ---------
+---------- 6 Errors  out of 24 Tests ----------
+Main Form Title: Lab1 (Michael Ababio)
+Error in Component: Label1
+          Property: Text
+          Expected: Enter Your Name
+         But Found: Enter Your Name.
+
+Error in variable: msgCaption
+          Expected: Lab 1
+         But Found: Lab1
+
+Error in variable: msgCaption
+          Expected: Lab 1
+         But Found: Lab1
+
+Error in variable: msgLabel_line1
+          Expected: Enter Your Name Please!
+         But Found: Please Enter your Name!
+
+Error in variable: msgCaption
+          Expected: Lab 1
+         But Found: Lab1
+
+Error in variable: msgLabel_line1
+          Expected: Enter Your Name Please!
+         But Found: Please Enter your Name!
+
+---------- 6.5 Points out of 10 Points ---------
+---------- 5 Errors  out of 24 Tests ----------
+Main Form Title: Lab1
+Error in variable: msgCaption
+          Expected: Lab 1
+         But Found: Lab1
+
+Error in variable: msgCaption
+          Expected: Lab 1
+         But Found: Lab1
+
+Error in variable: msgLabel_line1
+          Expected: Enter Your Name Please!
+         But Found: Please enter your name!
+
+Error in variable: msgCaption
+          Expected: Lab 1
+         But Found: Lab1
+
+Error in variable: msgLabel_line1
+          Expected: Enter Your Name Please!
+         But Found: Please enter your name!
+
+---------- 8 Points out of 10 Points ---------
+---------- 4 Errors  out of 24 Tests ----------
+Main Form Title: Lab1 Mazen Alsukayti
+Error in Component: frmMain
+          Property: Height
+          Expected: 400
+         But Found: 394
+
+Error in Component: frmMain
+          Property: Width
+          Expected: 600
+         But Found: 594
+
+Error in Component: txtName
+          Property: Horizontal
+          Expected: 297
+         But Found: 305
+Error in Component: txtName
+          Property: Vertical
+          Expected: 197
+         But Found: 171
+---------- 9 Points out of 10 Points ---------
+---------- 2 Errors  out of 24 Tests ----------
+Main Form Title: Lab1 Alex Becker
+Error in Component: frmMain
+          Property: Height
+          Expected: 400
+         But Found: 394
+
+Error in Component: frmMain
+          Property: Width
+          Expected: 600
+         But Found: 594
+
+---------- 10 Points out of 10 Points ---------
+---------- 0 Errors  out of 24 Tests ----------
+Main Form Title: Lab1 (Qi Yang)
+---------- 7 Points out of 10 Points ---------
+---------- 5 Errors  out of 24 Tests ----------
+Main Form Title: Lab1 (Caleb Ballweg)
+Error in Component: frmMain
+          Property: Height
+          Expected: 400
+         But Found: 394
+
+Error in Component: frmMain
+          Property: Width
+          Expected: 600
+         But Found: 594
+
+Error in Component: txtName
+          Property: Vertical
+          Expected: 197
+         But Found: 192
+Error in variable: msgCaption
+          Expected: Lab 1
+         But Found: lab 1
+
+Error in variable: msgLabel_line1
+          Expected: Hello, Bob Roberts!
+         But Found: Hello,Bob Roberts!
+

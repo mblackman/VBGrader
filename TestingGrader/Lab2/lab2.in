@@ -1,0 +1,281 @@
+' The total point value of this asignment
+TotalPoints 15
+
+' Checks the content of the form
+Form frmMain
+	Text "Lab2 (firstname lastname)" 0.5
+	Height 450 0.5
+	Width 500 0.5
+	FormBorderStyle FixedSingle 0.5
+	WindowState Normal 0.5
+	StartPosition CenterScreen 0.5
+	ControlBox False 0.5
+	AcceptButton "System.Windows.Forms.Button, Text: &COMPUTE" 0.5
+	CancelButton "System.Windows.Forms.Button, Text: E&XIT" 0.5
+	
+' Checks lblPayRoll properties
+Find Label lblPayRoll 
+	Name lblPayRoll 0.5
+	AutoSize True 0.5
+	Text "PayRoll Program" 0.5
+	"Font.Name" "Times New Roman" 0.5
+	"Font.Size" 14 0.5
+	"Font.Underline" True 0.5
+	Aligned Horizontal 0.5
+	
+' Checks txtID Properties
+Find TextBox txtID 
+	Name txtID 0.5
+	Multiline False 0.5
+	Height 20 0.5
+	Width 100 0.5
+	TextAlign Left 0.5
+	
+' Checks txtRate Properties
+Find TextBox txtRate 
+	Multiline False 0.5
+	Height 20 0.5
+	Width 100 0.5
+	TextAlign Left 0.5
+	
+' Checks txtHours Properties
+Find TextBox txtHours 
+	Name txtHours 0.5
+	Multiline False 0.5
+	Height 20 0.5
+	Width 100 0.5
+	TextAlign Left 0.5
+	
+' Checks txtGrossPay Properties
+Find TextBox txtGrossPay 
+	Name txtGrossPay 0.5
+	Multiline False 0.5
+	Height 20 0.5
+	Width 100 0.5
+	TextAlign Right 0.5
+	ReadOnly True 0.5
+	TabStop False 0.5
+	BackColor "Color [Window]" 0.5
+	
+' Checks txtDeduction Properties
+Find TextBox txtDeduction 
+	Name txtDeduction 0.5
+	Multiline False 0.5
+	Height 20 0.5
+	Width 100 0.5
+	TextAlign Right 0.5
+	ReadOnly True 0.5
+	TabStop False 0.5
+	BackColor "Color [Window]" 0.5
+	
+' Checks txtNetPay Properties
+Find TextBox txtNetPay 
+	Name txtNetPay 0.5
+	Multiline False 0.5
+	Height 20 0.5
+	Width 100 0.5
+	TextAlign Right 0.5
+	ReadOnly True 0.5
+	TabStop False 0.5
+	BackColor "Color [Window]" 0.5
+
+' Checks lblID Properties
+Find Label lblID 
+	Name lblID 0.5
+	AutoSize True 0.5
+	Text ID 0.5
+	"Font.Name" "Microsoft Sans Serif" 0.5
+	"Font.Size" "8.25" 0.5
+	TextAlign MiddleLeft 0.5
+	
+' Checks lblRate Properties
+Find Label lblRate 
+	Name lblRate 0.5
+	AutoSize True 0.5
+	Text Rate 0.5
+	"Font.Name" "Microsoft Sans Serif" 0.5
+	"Font.Size" "8.25" 0.5
+	TextAlign MiddleLeft 0.5
+	
+' Checks lblHours Properties
+Find Label lblHours 
+	Name lblHours 0.5
+	AutoSize True 0.5
+	Text Hours 0.5
+	"Font.Name" "Microsoft Sans Serif" 0.5
+	"Font.Size" "8.25" 0.5
+	TextAlign MiddleLeft 0.5
+	
+' Checks lblGrossPay Properties
+Find Label lblGrossPay 
+	Name lblGrossPay 0.5
+	AutoSize True 0.5
+	Text "Gross Pay" 0.5
+	"Font.Name" "Microsoft Sans Serif" 0.5
+	"Font.Size" "8.25" 0.5
+	TextAlign MiddleLeft 0.5
+	
+' Checks lblDeduction Properties
+Find Label lblDeduction 
+	Name lblDeduction 0.5
+	AutoSize True 0.5
+	Text Deduction 0.5
+	"Font.Name" "Microsoft Sans Serif" 0.5
+	"Font.Size" "8.25" 0.5
+	TextAlign MiddleLeft 0.5
+	
+' Checks lblNetPay Properties
+Find Label lblNetPay 
+	Name lblNetPay 0.5
+	AutoSize True 0.5
+	Text "Net Pay" 0.5
+	"Font.Name" "Microsoft Sans Serif" 0.5
+	"Font.Size" "8.25" 0.5
+	TextAlign MiddleLeft 0.5
+	
+' Checks btnCompute Properties
+Find Button btnCompute 
+	Name btnCompute 0.5
+	Text "&COMPUTE" 0.5
+	
+' Checks btnReset Properties
+Find Button btnReset 
+	Name btnReset 0.5
+	Text "&RESET" 0.5
+	
+' Checks btnExit Properties
+Find Button btnExit 
+	Name btnExit 0.5
+	Text "E&XIT" 0.5
+	
+Aligned Left txtID lblID 0.5
+
+Aligned Left txtRate lblRate 0.5
+
+Aligned Left txtHours lblHours 0.5
+
+Aligned Left txtGrossPay lblGrossPay 0.5
+
+Aligned Left txtDeduction lblDeduction 0.5
+
+Aligned Left txtNetPay lblNetPay 0.5
+
+Aligned Top txtID txtGrossPay 0.5
+
+Aligned Top txtRate txtDeduction 0.5
+
+Aligned Top txtHours txtNetPay 0.5
+
+Aligned Top lblID lblGrossPay 0.5
+
+Aligned Top lblRate lblDeduction 0.5
+
+Aligned Top lblHours lblNetPay 0.5
+
+'Aligned Left lblHours lblNetPay 0.5
+
+' Checks Tab Order
+TabOrder txtID txtRate txtHours btnCompute btnReset btnExit 0.5
+
+' Test for empty input
+Click btnCompute
+Expect "msgLabel_line1" = "Enter the ID please!" 0.5
+Expect msgCaption = "Lab 2" 0.5
+
+' Test for only spaces in ID
+SetTextboxProperty txtID Text "   "
+Click btnCompute
+Expect "msgLabel_line1" = "Enter the ID please!" 0.5
+Expect msgCaption = "Lab 2" 0.5
+
+' Test with only ID filled
+SetTextboxProperty txtID Text asdf
+Click btnCompute
+Expect "msgLabel_line1" = "Invalid Rate!" 0.5
+Expect "msgLabel_line2" = "Rate must be a number!" 0.5
+Expect msgCaption = "Lab 2" 0.5
+
+' ** btnCompute tests **
+
+' 1) Test with nonNumeric rate
+SetTextboxProperty txtRate Text asdf
+Click btnCompute
+Expect "msgLabel_line1" = "Invalid Rate!" 0.5
+Expect "msgLabel_line2" = "Rate must be a number!" 0.5
+Expect msgCaption = "Lab 2" 0.5
+
+' 2) Test with negative numeric rate
+SetTextboxProperty txtRate Text "-10"
+Click btnCompute
+Expect "msgLabel_line1" = "Invalid Rate!" 0.5
+Expect "msgLabel_line2" = "Rate must be positive!" 0.5
+Expect msgCaption = "Lab 2" 0.5
+
+' 3) Test with Numeric value for rate, and ID filled
+SetTextboxProperty txtRate Text 10
+Click btnCompute
+Expect "msgLabel_line1" = "Invalid Hours!" 0.5
+Expect "msgLabel_line2" = "Hours must be a number!" 0.5
+Expect msgCaption = "Lab 2" 0.5
+
+' 4) Test with nonNumeric hours
+SetTextboxProperty txtHours Text asdf
+Click btnCompute
+Expect "msgLabel_line1" = "Invalid Hours!" 0.5
+Expect "msgLabel_line2" = "Hours must be a number!" 0.5
+Expect msgCaption = "Lab 2" 0.5
+
+' 5) Test with negative numeric hours
+SetTextboxProperty txtHours Text -10
+Click btnCompute
+Expect "msgLabel_line1" = "Invalid Hours!" 0.5
+Expect "msgLabel_line2" = "Hours must be non-negative!" 0.5
+Expect msgCaption = "Lab 2" 0.5
+
+' 6) Test with all valid inputs. Hours = 10
+SetTextboxProperty txtHours Text 10
+Click btnCompute
+contains txtGrossPay Text "$100.00" 0.5
+contains txtDeduction Text "$33.00" 0.5
+txtNetPay Text "$67.00" 0.5
+
+' 7) Test with all valid inputs. Hours = 39.999
+SetTextboxProperty txtHours Text "39.999"
+Click btnCompute
+txtGrossPay Text "$399.99" 0.5
+txtDeduction Text "$132.00" 0.5
+txtNetPay Text "$267.99" 0.5
+
+' 8) Test with all valid inputs. Hours = 40
+SetTextboxProperty txtHours Text 40
+Click btnCompute
+txtGrossPay Text "$400.00" 0.5
+txtDeduction Text "$132.00" 0.5
+txtNetPay Text "$268.00" 0.5
+
+' 9) Test with all valid inputs. Hours = 40.001 (Overtime)
+SetTextboxProperty txtHours Text "40.001"
+Click btnCompute
+txtGrossPay Text "$400.02" 0.5
+txtDeduction Text "$132.00" 0.5
+txtNetPay Text "$268.01" 0.5
+
+' 10) Test with all valid inputs. Hours = 50 (Overtime)
+SetTextboxProperty txtHours Text 50
+Click btnCompute
+txtGrossPay Text "$550.00" 0.5
+txtDeduction Text "$181.50" 0.5
+txtNetPay Text "$368.50" 0.5
+
+' Test btnReset
+Click btnReset
+txtID Text "" 0.5
+txtRate Text "" 0.5
+txtHours Text "" 0.5
+txtGrossPay Text "" 0.5
+txtDeduction Text "" 0.5
+txtNetPay Text "" 0.5
+'Check txtID Focused True 0.5
+
+' it does close the grader program
+' Click btnExit

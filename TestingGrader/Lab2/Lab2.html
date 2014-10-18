@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>CS 2340: Programming in Visual Basic </title>
+</head>
+
+<body>
+<center><h3>         CS 2340 - Lab 2 (15 points)
+<br />
+Due 9 PM, Friday, September 14, 2012</h3></center>
+
+<p>
+Create a VB.NET program in MS Visual Studio 2010. The program has one form with 6 textboxes, 7 labels and 3 buttons.
+</p>
+
+<h5> The Form </h5>
+<ul>
+<li> The form name is frmLab2 and the title is "Lab2" followed by your full name. </li>
+<li> The size of the form is (500, 450), the FormBorderStyle is FixedSingle, and the form has no ControlBox. </li>
+<li> The WindowState is Normal and the StartPosition is CenterScreen. </li>
+</ul>
+
+<h5> The PayRoll Label </h5>
+<ul>
+<li> The name is lblPayRoll and the AutoSize property is True. </li>
+<li> The text of the label is "PayRoll Program." The font size is 14, font name is Times New Roman, 
+    and font style is underlined. </li>
+<li> It is above other controls and horizontally centered in the form. </li>
+</ul>
+
+
+<h5> The Six Pairs of Textboxes and Labels </h5>
+<ul>
+<li> Below the PayRoll label, there are three textboxes on the left and three textboxes on the right.
+     All textboxes have the default size, and there a label above each textbox. </li>
+<li> The names of the textboxes are txtID, txtRate, txtHours, txtGrossPay, txtDeduction, and txtNetPay. </li>
+<li> The three textboxes on the left are displayed top-down, aligned on the left with the same vertical distance between them. 
+    The same applies to the three textboxes on the right, and each one on the right is aligned on the top
+    with one textbox on the left. </li>
+<li> The names of the labels above the textboxes are lblID, lblRate, lblHours, lblGrossPay, lblDeduction, and lblNetPay.
+     The texts of the labels are "ID," "Rate," "Hours," "Gross Pay," "Deduction," and "Net Pay." </li>
+<li> Each label is aligned on the left with the textboxe below it.
+ </li>
+<li> All the labels have the default font with the TextAligh being MiddleLeft . </li>
+<li> The entier group of controls are centered in the form both horizontally and vertically. </li>
+<li> The three textboxes on the left are used to get input values. 
+    <ul>
+    <li> TextAlign is Left. </li>
+    </ul>
+</li>
+<li> The three textboxes on the right are used to display output values. 
+    <ul>
+    <li> TextAlign is Right. </li>
+    <li> All values must be in Currency format.</li>
+    <li> All are ReadOnly. </li>
+    <li> BackColor is Window, same as those input textboxes. </li>
+    </ul>
+</li>
+</ul>
+
+<h5> The Buttons </h5>
+<ul>
+<li> The names of the buttons are btnCompute, btnReset and btnExit. </li>
+<li> The texts of the buttons are "<u>C</u>OMPUTE," "<u>R</u>ESET," and "E<u>X</u>IT." </li>
+    The underlined characters are the access keys. </li>
+<li> The three buttons are horizontally centered in the form with the same horizontally distance between them. </li>
+<li> Button <u>C</u>OMPUTE is the AcceptButton and button E<u>X</u>IT is the CancelButton of the form. </li>
+</ul>
+
+
+<h5> Tab Order </h5>
+<ul>
+<li> Textbox txtID has the focus when the program starts. </li>
+<li> When the Tab key is pressed, the focus will go to txtRate, txtHours, btnCompute, btnReset, btnExit,
+    and then back to txtID. </li>
+<li> The output textboxes on the right will not receive focus when the Tab key is pressed. </li>    
+</ul>
+
+
+<h5> The Click Event of btnCompute </h5>
+<ul>
+<li> The program will check the input values when btnCompute is clicked. </li>
+<li> The values will be checked top-down, and when one invalid value is found, 
+    the remaining will not be checked.</li>
+<li> When one input value is found invalid, 
+    the focus will go to the corresponding textbox so the user can enter the input again.</li>
+<li> The ID must have at least one non-space character. Otherwise, a message box will be displayed with
+    the following message:
+<pre>
+      Enter the ID please!
+</pre>
+</li>
+    <li> Rate must be a positive number. Otherwise, a message box will be displayed with
+    one of the two following messages on two lines:
+<pre>
+      Invalid Rate!
+      Rate must be a number!
+
+      Invalid Rate!
+      Rate must be positive!
+</pre>            
+    <li> Hours must be non-negative number. Otherwise, a message box will be displayed with
+    one of the two following messages on two lines:
+<pre>
+      Invalid Hours!
+      Hours must be a number!
+
+      Invalid Hours!
+      Hours must be non-negative!
+</pre>            
+
+</li>
+<li> A string in scientific notation such as "2e3" will be considered as an invalid number. </li>
+<li> If all input values are valid, the program will compute the Gross Pay, Deduction, and Net Pay.</li>     
+<li> The Gross Pay is the product of Hours and Rate when Hours is at most 40.</li>
+<li> Any hours above 40 are overtime hours and
+    are paid one time and half of the regular rate. </li>
+<li> The Deduction is 33% of the Gross Pay, and the Net Pay is the difference of the Gross Pay
+    and the Deduction. </li>
+<li> All output values must be displayed in the currency format.
+</ul>
+
+
+<h5> The Click Event of btnReset </h5>
+<ul>
+<li> The program will clear all textboxes and move the focus to txtID when btnReset is clicked. </li>
+</ul>
+
+<h5> The Click Event of btnExit </h5>
+<ul>
+<li> The program will terminate when btnExit is clicked. </li>
+</ul>
+
+
+<h5> Submission </h5>
+<ul>
+<li> Drop your executable file to folder Lab2 in the class DropBox by the due time.  </li> 
+<li> No Grace Time!  </li> 
+<li> The name of the executable file must be UserName_Lab2, where UserName is your UWP UserName. </li> 
+<li> Make sure the file name is correct. You will lose two points for incorrect file name.  </li> 
+</ul>
+
+</body>
+</html>

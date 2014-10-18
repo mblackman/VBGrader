@@ -1,0 +1,40 @@
+---------- 6 Points out of 10 Points ---------
+---------- 8 Errors out of 26 Tests ----------
+
+Error in Component: frmLab1
+                 Property: Height
+               Expected: 400
+              But Found: 410
+
+Error in Component: frmLab1
+                 Property: Width
+               Expected: 600
+              But Found: 610
+
+Error in Component: txtName
+                 Property: Horizontal
+               Expected: 305
+              But Found: 300
+
+Error in Component: txtName
+                 Property: Vertical
+               Expected: 205
+              But Found: 200
+
+Error in Component: lblName
+                 Property: Horizontal
+               Expected: 305
+              But Found: 300
+
+Error in Component: btnHello
+                 Property: Horizontal
+               Expected: 305
+              But Found: 300
+
+Incorrect Tab Order: btnHello
+
+Error in Component: txtName btnHello
+                 Property: Aligned Center
+               Expected: txtName Center = 295
+              But Found: btnHello Center = 295.5
+

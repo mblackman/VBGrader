@@ -1,0 +1,11 @@
+J:\Classes\VB.net\AlexaderSam_Lab4\bin\Debug\AlexaderSam_Lab4.exe
+J:\Classes\VB.net\AlexaderSam_Lab4\bin\Debug\AlexaderSam_Lab4.pdb
+J:\Classes\VB.net\AlexaderSam_Lab4\bin\Debug\AlexaderSam_Lab4.xml
+J:\Classes\VB.net\AlexaderSam_Lab4\obj\x86\Debug\ResolveAssemblyReference.cache
+J:\Classes\VB.net\AlexaderSam_Lab4\obj\x86\Debug\AlexaderSam_Lab4.frmLab4.resources
+J:\Classes\VB.net\AlexaderSam_Lab4\obj\x86\Debug\AlexaderSam_Lab4.Resources.resources
+J:\Classes\VB.net\AlexaderSam_Lab4\obj\x86\Debug\GenerateResource.read.1.tlog
+J:\Classes\VB.net\AlexaderSam_Lab4\obj\x86\Debug\GenerateResource.write.1.tlog
+J:\Classes\VB.net\AlexaderSam_Lab4\obj\x86\Debug\AlexaderSam_Lab4.exe
+J:\Classes\VB.net\AlexaderSam_Lab4\obj\x86\Debug\AlexaderSam_Lab4.xml
+J:\Classes\VB.net\AlexaderSam_Lab4\obj\x86\Debug\AlexaderSam_Lab4.pdb

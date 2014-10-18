@@ -1,0 +1,11 @@
+J:\VB\Lab4\Lab4\bin\Debug\Lab4.exe
+J:\VB\Lab4\Lab4\bin\Debug\Lab4.pdb
+J:\VB\Lab4\Lab4\bin\Debug\Lab4.xml
+J:\VB\Lab4\Lab4\obj\x86\Debug\ResolveAssemblyReference.cache
+J:\VB\Lab4\Lab4\obj\x86\Debug\Lab4.Form1.resources
+J:\VB\Lab4\Lab4\obj\x86\Debug\Lab4.Resources.resources
+J:\VB\Lab4\Lab4\obj\x86\Debug\GenerateResource.read.1.tlog
+J:\VB\Lab4\Lab4\obj\x86\Debug\GenerateResource.write.1.tlog
+J:\VB\Lab4\Lab4\obj\x86\Debug\Lab4.exe
+J:\VB\Lab4\Lab4\obj\x86\Debug\Lab4.xml
+J:\VB\Lab4\Lab4\obj\x86\Debug\Lab4.pdb

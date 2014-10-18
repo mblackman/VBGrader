@@ -1,0 +1,24 @@
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab6\AbabioM_Lab6\bin\Debug\AbabioM_Lab6.exe
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab6\AbabioM_Lab6\bin\Debug\AbabioM_Lab6.pdb
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab6\AbabioM_Lab6\bin\Debug\AbabioM_Lab6.xml
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab6\AbabioM_Lab6\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab6\AbabioM_Lab6\obj\x86\Debug\WindowsApplication1.frmClasses.resources
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab6\AbabioM_Lab6\obj\x86\Debug\WindowsApplication1.frmPayment.resources
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab6\AbabioM_Lab6\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab6\AbabioM_Lab6\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab6\AbabioM_Lab6\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab6\AbabioM_Lab6\obj\x86\Debug\AbabioM_Lab6.exe
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab6\AbabioM_Lab6\obj\x86\Debug\AbabioM_Lab6.xml
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab6\AbabioM_Lab6\obj\x86\Debug\AbabioM_Lab6.pdb
+J:\AbabioM_Lab6\obj\x86\Debug\AbabioM_Lab6.exe
+J:\AbabioM_Lab6\obj\x86\Debug\AbabioM_Lab6.xml
+J:\AbabioM_Lab6\obj\x86\Debug\AbabioM_Lab6.pdb
+J:\AbabioM_Lab6\bin\Debug\AbabioM_Lab6.exe
+J:\AbabioM_Lab6\bin\Debug\AbabioM_Lab6.pdb
+J:\AbabioM_Lab6\bin\Debug\AbabioM_Lab6.xml
+J:\AbabioM_Lab6\obj\x86\Debug\ResolveAssemblyReference.cache
+J:\AbabioM_Lab6\obj\x86\Debug\WindowsApplication1.Form1.resources
+J:\AbabioM_Lab6\obj\x86\Debug\WindowsApplication1.Form2.resources
+J:\AbabioM_Lab6\obj\x86\Debug\WindowsApplication1.Resources.resources
+J:\AbabioM_Lab6\obj\x86\Debug\GenerateResource.read.1.tlog
+J:\AbabioM_Lab6\obj\x86\Debug\GenerateResource.write.1.tlog

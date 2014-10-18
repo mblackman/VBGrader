@@ -1,0 +1,13 @@
+J:\Classes\VB.net\documents-export-2012-11-12\AlexanderSam_Lab7\AlexanderSam_Lab7\obj\x86\Debug\ResolveAssemblyReference.cache
+J:\Classes\VB.net\documents-export-2012-11-12\AlexanderSam_Lab7\AlexanderSam_Lab7\obj\x86\Debug\AlexanderSam_Lab7.Form1.resources
+J:\Classes\VB.net\documents-export-2012-11-12\AlexanderSam_Lab7\AlexanderSam_Lab7\obj\x86\Debug\AlexanderSam_Lab7.Form2.resources
+J:\Classes\VB.net\documents-export-2012-11-12\AlexanderSam_Lab7\AlexanderSam_Lab7\obj\x86\Debug\AlexanderSam_Lab7.Resources.resources
+J:\Classes\VB.net\documents-export-2012-11-12\AlexanderSam_Lab7\AlexanderSam_Lab7\obj\x86\Debug\GenerateResource.read.1.tlog
+J:\Classes\VB.net\documents-export-2012-11-12\AlexanderSam_Lab7\AlexanderSam_Lab7\obj\x86\Debug\GenerateResource.write.1.tlog
+J:\Classes\VB.net\documents-export-2012-11-12\AlexanderSam_Lab7\AlexanderSam_Lab7\bin\Debug\AlexanderSam_Lab7.exe
+J:\Classes\VB.net\documents-export-2012-11-12\AlexanderSam_Lab7\AlexanderSam_Lab7\bin\Debug\AlexanderSam_Lab7.pdb
+J:\Classes\VB.net\documents-export-2012-11-12\AlexanderSam_Lab7\AlexanderSam_Lab7\bin\Debug\AlexanderSam_Lab7.xml
+J:\Classes\VB.net\documents-export-2012-11-12\AlexanderSam_Lab7\AlexanderSam_Lab7\obj\x86\Debug\AlexanderSam_Lab7.exe
+J:\Classes\VB.net\documents-export-2012-11-12\AlexanderSam_Lab7\AlexanderSam_Lab7\obj\x86\Debug\AlexanderSam_Lab7.xml
+J:\Classes\VB.net\documents-export-2012-11-12\AlexanderSam_Lab7\AlexanderSam_Lab7\obj\x86\Debug\AlexanderSam_Lab7.pdb
+J:\Classes\VB.net\documents-export-2012-11-12\AlexanderSam_Lab7\AlexanderSam_Lab7\bin\Debug\AlexanderSam_Lab7.exe.config

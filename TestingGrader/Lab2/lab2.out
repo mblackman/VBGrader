@@ -1,0 +1,18 @@
+---------- 14 Points out of 15 Points ---------
+---------- 3 Errors out of 131 Tests ----------
+
+Error in Component: frmMain
+                 Property: Text
+               Expected: Lab2 (firstname lastname)
+              But Found: Lab2 (Qi Yang)
+
+Error in Component: frmMain
+                 Property: Height
+               Expected: 450
+              But Found: 460
+
+Error in Component: frmMain
+                 Property: Width
+               Expected: 500
+              But Found: 510
+

@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head><title>
+CS 2340: Programming in Visual Basic
+</title></head>
+
+<body>
+<center><h4>
+         CS 2340 - Lab 4: Future Values (20 Points)
+<br />
+Due 9 PM, Monday, October 1, 2012</h4></center>
+
+<p>
+Create a VB.NET program in MS Visual Studio 2010 to compute and display future values. 
+</p>
+<!--
+The user will enter the principal, select or type a rate,
+select the number of periods the interest will be compounded each year,
+enter the Start Year and the End Year.
+The program will compute and display the future values at the end
+of each year, from Start Year to End Year.
+-->
+
+<h5>The form </h5>
+<ol>
+<li> The program has one form, it has no control box and its title is "Lab4" followed by 
+      your first name and last name. </li>
+
+<li> The size is (620, 500), the FormBorderStyle is FixedSingle. 
+    The start position is center screen, and the windows state is normal. </li>
+</ol>
+
+<h5>The Menu </h5>
+<ol>
+<li> The form has three menu items on the top: <u>F</u>ile, <u>P</u>eriodsPerYear, and <u>H</u>elp. </li>
+<li> Menu File has two menu items, <u>C</u>ompute and E<u>x</u>it, with a seperate bar between. 
+     The shortcut key is Ctrl+C and Ctrl+X, respectively, and the access key is indicated by the underlined character </li>
+<li> Menu PeriodsPerYear has four menu items: 1, 4, 12, and 365, representing the number of periods
+     per year the interest will be compounded. The short cut key is Ctrl+Y (Yearly), Ctrl+Q (Quarterly), 
+     Ctrl+M (Monthly), and Ctrl+D (Daily), respectively. </li>
+<li> Menu item 12 (Monthly) is checked at the begnning, since interest is normally computed once a month. </li>     
+<li> Menu Help has one menu item <u>A</u>bout, whose short cut key is Ctrl+A, 
+     and access key is Alt+A. </li>
+</ol>
+
+<h5>The Future Value ListBox </h5>
+<ol>
+<li> The future values are displayed in a listbox in currency format with font Courier New of size 14 pt.
+     The display should be similar to that of the sample program.
+     You can use String.PadLeft method to align the values.  </li>
+<li> The size of the listbox is (370, 193) and it's centered horizontally on the form. </li>
+<li> There is a label above the listbox with text "Future Values." 
+     The font of the label is Sans Serif of size 14 pt, with style Bold and Underlined. </li>
+<li> Your program should be able to handle rather large amounts 
+     such as $1,000,000 over 30 years with rate 20%. </li>
+</ol>
+
+<h5>The Input TextBoxes and ComboBox </h5>
+<ol>
+<li> There is a textbox for the user to enter the principal.
+    <ul>
+    <li> The principal textbox accepts digits, backspace, and at most one decimal point. </li>
+    <li> It will beep and reject any illegal character, including a second decimal point. </li>
+    </ul>
+ </li>
+
+<li> There is a DropDown ComboBox for the user to select or enter the annual rate. 
+    <ul>
+    <li> The combobox lists rates from 5% to 12% with an increment of 1%,
+         and the rate of 7% is displayed at the beginning. </li>
+    <li> The user can also type in a rate. </li>
+    <li> The combobox accepts digits, backspace, and at most one decimal point. </li>
+    <li> It will beep and reject any illegal character. </li>
+    </ul>
+</li>
+
+<li> There are two textboxes for the user to enter start year and end year.
+    <ul>
+    <li> The textboxes accept digits and backspace. </li>
+    <li> They will beep and reject any illegal characters. </li>
+    </ul>
+ </li>
+     
+<li> There is a label above each input textbox and the combobox. </li>
+</ol>
+
+<h5>Menu items events </h5>
+<ol>
+<li> Clicking on menu item E<u>x</u>it will terminate the program. </li>
+
+<li> Pressing Alt+F4 will not terminate the program. </li>
+
+<li> Clicking on menu item <u>C</u>ompute will check the input values, 
+     and the future values will be computed and displayd only when all input values are valid. </li>
+
+<li> You should use the VB function FV to compute the future values. </li>
+
+<li> To compute the future values, a principal must be entered;
+     a rate must be selected or entered, a start year and an end year must be entered,
+     the end year must be at least as large as the start year,
+     and the end year must not be larger than 99. </li>
+
+<li> The input are checked in the order specified above. When an invalid input value is found,
+     the checking will stop, a message box is displayed, and the focus will 
+     go to the control with the invalid value (textbox for End Year when end year is smaller than the start year). </li>
+
+<li> The menu items of PeriodsPerYear are used to set the number of periods per year the interest
+     will be compounded. 
+     <!-- The selected period will be displayed as checked, and all others unchecked. -->
+     </li>     
+
+<li> Clicking on the <u>A</u>bout menu item will display a message box that displays the
+     following message on three lines:
+<pre>     Qi Yang
+     Department of Computer Science and Software Engineering
+     UW - Platteville
+     
+</pre>
+     The title should be "Future Values Program" and, of course, use <b>your own full name</b>.
+     </li>
+     
+<li> All the menu events can also be triggered by the access keys and the short cut keys. </li>
+
+<li> After a succesful computation, the user can do "What-If" analysis by selecting a different value 
+     for Periods per Year or Annual Rate. 
+     The future values shoud be re-computed and displayed without clicking the Compute menu item.
+     But no message box is displayed if some input is invalid or missing. </li>
+</ol>
+
+<!--
+<li> Hint: You could use the Leave event to set the values for the ptincipal, rate, start year and end year. </li>     
+-->
+
+<!--
+<h5> The Code Module </h5>
+<br />
+There must be a code module with the following procedures:
+<pre>    ' These variables are optional
+    Friend periodsPerYear, firstYear, lastYear As Integer
+    Friend principal, rate As Double
+
+    ' The Sub will compute the future values and display them in lstFutureValues. 
+    ' The Sub does not check the parameters and assumes they are all valid. 
+    ' The Sub does not do anything else.
+    Friend Sub computeAndDisplayFutureValues(ByVal principal As Double, _
+                                             ByVal rate As Double, _
+                                             ByVal periodsPerYear As Integer, _
+                                             ByVal startYear As Integer, _
+                                             ByVal endYear As Integer, _
+                                             ByVal lstFutureValues As ListBox)
+
+    ' Accepts digits, back space and at most one decimal point.
+    ' Rejects all other characters (including +, - and a second decimal point) and beeps to warn the user.
+    Friend Sub AcceptDigitBackSpaceOneDecimalPoint(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs)
+
+    ' Accepts digits and back space.
+    ' Rejects all other characters (including +, - and decimal point) and beeps to warn the user.
+    Friend Sub AcceptDigitBackSpace(ByVal e As System.Windows.Forms.KeyPressEventArgs)
+
+    ' Returns True if any input is missing, False otherwise.
+    Friend Function MissInput(ByVal txtprincipal As TextBox, ByVal cobRate As ComboBox, _
+                              ByVal txtStart As TextBox, ByVal txtEnd As TextBox) As Boolean
+</pre>
+Each of the procedures must be called by some event procedure, and no redudant code can be
+repeated in any event procedures.
+<br /><br />
+-->
+
+<h5>Other Requirements </h5>
+<ol>
+<li> Tab order: txtPrincipal, cobRate, txtStart, txtEnd, and lstFutureValues. </li>
+
+<li> You should create the following procedures on your form:
+<pre>
+   ' Called when user inputs into the start year and end year textboxes.
+   Private Sub CheckPositiveIntegers(ByVal e As System.Windows.Forms.KeyPressEventArgs)
+
+   ' Called when to compute and display the future values
+   Private Sub computeAndDisplayFutureValues()
+</pre>
+</li>
+<!--
+<li> After future values are displayed in the listbox, the focus should also
+     go to the listbox. </li>
+-->     
+</ol>
+
+<h4> Submission </h4>
+<ul>
+<li> Name your solution folder as UserName_Lab4 using your UserName. </li>
+<li> Drop the <b>entire solution folder</b> to folder Lab4 of the class Dropbox by the due time. 
+</li>
+</ul>
+
+</body>
+</html>

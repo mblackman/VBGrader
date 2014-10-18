@@ -1,0 +1,34 @@
+' The total point value of this asignment
+TotalPoints 20
+
+' Checks the content of the form
+Form frmMain Button TextBox Label MenuStrip
+	Text "Lab4 (firstname lastname)" "0.5"
+	Height 500 "0.5"
+	Width 620 "0.5"
+	FormBorderStyle FixedSingle "0.5"
+	WindowState Normal "0.5"
+	StartPosition CenterScreen "0.5"
+
+Find TextBox txtPrinciple "#Point 1 1"
+Find TextBox txtEnd "#Point 2 1"
+Find TextBox txtStart "#Point 1 2"
+
+Find ComboBox cboRate "#Point 1 1"
+
+Find MenuStrip menuStrip1 "#Point 1 1"
+
+Find ToolStripMenuItem mnuAbout "#Point 3 2"
+	Text "&About" "0.5"
+	ShortcutKeys "Ctrl+A" "0.5"
+
+	
+'click mnuAbout
+
+' Test clicking with no values entered
+'setProperty txtStart Text ""
+'setProperty txtEnd Text ""
+'setProperty txtPrinciple Text ""
+
+setProperty cboRate SelectedIndex 3 
+

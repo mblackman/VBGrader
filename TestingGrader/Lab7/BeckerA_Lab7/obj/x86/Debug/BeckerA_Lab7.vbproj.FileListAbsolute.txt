@@ -1,0 +1,13 @@
+J:\VB.net\BeckerA_Lab7\bin\Debug\BeckerA_Lab7.exe
+J:\VB.net\BeckerA_Lab7\bin\Debug\BeckerA_Lab7.pdb
+J:\VB.net\BeckerA_Lab7\bin\Debug\BeckerA_Lab7.xml
+J:\VB.net\BeckerA_Lab7\obj\x86\Debug\ResolveAssemblyReference.cache
+J:\VB.net\BeckerA_Lab7\obj\x86\Debug\BeckerA_Lab7.Resources.resources
+J:\VB.net\BeckerA_Lab7\obj\x86\Debug\GenerateResource.read.1.tlog
+J:\VB.net\BeckerA_Lab7\obj\x86\Debug\GenerateResource.write.1.tlog
+J:\VB.net\BeckerA_Lab7\obj\x86\Debug\BeckerA_Lab7.exe
+J:\VB.net\BeckerA_Lab7\obj\x86\Debug\BeckerA_Lab7.xml
+J:\VB.net\BeckerA_Lab7\obj\x86\Debug\BeckerA_Lab7.pdb
+J:\VB.net\BeckerA_Lab7\obj\x86\Debug\BeckerA_Lab7.FormClassGrid.resources
+J:\VB.net\BeckerA_Lab7\bin\Debug\BeckerA_Lab7.exe.config
+J:\VB.net\BeckerA_Lab7\obj\x86\Debug\BeckerA_Lab7.FormClassIndividual.resources

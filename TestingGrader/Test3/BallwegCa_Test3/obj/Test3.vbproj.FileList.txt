@@ -1,0 +1,11 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\UWPCS234.Form1.resources
+obj\Debug\UWPCS234.Form2.resources
+obj\Debug\UWPCS234.Resources.resources
+obj\Debug\Test3.vbproj.GenerateResource.Cache
+bin\Debug\Test3.exe
+bin\Debug\Test3.pdb
+bin\Debug\Test3.xml
+obj\Debug\Test3.exe
+obj\Debug\Test3.xml
+obj\Debug\Test3.pdb

@@ -1,0 +1,267 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head><title>
+CS 2340: Programming in VB.NET
+</title></head>
+
+<body>
+<center><h4>
+         CS 2340 - Lab 6: Registration Payment (20 Points)
+<br />
+Due 9 PM, Wednesday, October 24, 2012
+</h4></center>
+
+Create a VB.NET program in MS Visual Studio 2010 to compute the registration payment. 
+The program has two forms, frmClasses and frmPayment, and a code module.
+
+<!--
+Two forms
+Form Resize
+Form Close
+Double click on listbox
+Array
+Context menu
+
+-->
+
+<h5> Code Module </h5>
+<ul>
+<li> All constants must be defined on the module </li>
+<li> The module must define a Sub main, which must be the startup object </li>
+<li> The module must declare two form variables, and each variable must point to an object of one form class. </li>
+<li> The module must define the following sub, which must be called from the FormClosing event procedure of both forms.
+<pre>
+   ''' &ltsummary&gt
+   ''' Refuses to close a form when the user tries to close it
+   ''' by clicking on the form close button or press Alt+F4.
+   ''' &lt/summary&gt
+   ''' &ltparam name="e"&gt Copied from the FormClosing event procedure of any form. &lt/param&gt
+   ''' &ltremarks&gtYou add remarks here&lt/remarks&gt
+   Friend Sub UserClosingForm(ByVal e As System.Windows.Forms.FormClosingEventArgs)
+</pre>
+</li>
+</ul>
+
+<h5> Form frmClasses </h5>
+<ul>
+<li> The form has its control box and its title is "Lab6" followed by your full name. 
+     The StartPosition is center screen, the Window state is normal, and the FormBorderStyle is Sizable. </li>
+     
+<li> The initial size is (600, 400) and the minimum size is (400, 200). </li>
+
+<li> The form has two listboxes: lstAvailable and lstSelected. 
+     For both listboxes, the size is (160, 88), SelectionMode is MultiExtended, 
+     and font is Courier New with size 8.25. </li>
+
+<li> There is a lable above each listbox and the text is "Available Classes" and "Selected Classes",
+     respectively. The font is MS Sans Serif of size 8.25. </li>
+
+<li> There is a title lable above the two labels with text "Select Classes." 
+     The font is MS Sans Serif of size 14 and bold and underlined. </li>
+
+<li> For the three labels, AutoSize is True and TextAlign is MiddleCenter. </li>    
+<li> There are three command buttons between the two listboxes: btnSelect, btnRemove and btnRemoveAll.
+     The size is (75, 23) for all the buttons and the text is <u>S</u>elect, <u>R</u>emove and Remove <u>A</u>ll,
+     respectively. The underlined chars are the access keys. </li>
+
+<li> When the form is loaded, lstSelected is empty and lstAvailable has the following items:
+<pre>
+        CS143             3
+        CS234             3
+        CS334             3
+        CS243             3
+        CS323             3
+        CS363             3
+        CS387             3
+        MATH264           4
+        MATH274           4
+        CHEM105           5
+        BIO115            5
+</pre>
+</li>
+
+<li> Clicking on button Select will move all selected classes in lstAvailable to lstSelected. </li>
+
+<li> Double Clicking on an item in lstAvailable will move it to lstSelected. </li>
+
+<li> Clicking on Remove will move all selected items in lstSelected to lstAvailable. </li>
+
+<li> Clicking on Remove All will move all items in lstSelected to lstAvailable. </li>
+
+<li> Double Clicking on an item in lstSelected will move it back to lstAvailable. </li>
+
+<li> Right clicking on the form will popup a shortcut menu with four menu items:
+     Sort Classes, Reset ListBoxes, Next and Exit. There is a separate bar before menu item Exit.
+     The shortcut keys are Ctrl+S, Ctrl+R, Ctrl+N and Ctrl+X, respectively. 
+ <br />
+ <ol>
+     <li>Clicking on menue item Sort Classes will sort items of both listboxes by the class names;</li>
+     <li>Clicking on menue item Reset ListBoxes will empty lstSelected, re-load the same items to lstAvailable 
+     and reset both listboxes to not sorted;</li>
+     <li>Clicking on menu item Next will hide the form and show form frmPayment;</li>
+     <li>Clicking on menu item Exit will terminate the program.</li>
+    </ol>
+</li>
+
+<li> Clicking on the form close button in the form controlbox or pressing Alt+F4 will popup a message box with 
+     the following message on two lines and the form will not be closed:
+<pre>
+        Sorry, the form cannot be closed this way!
+        Use the form Shortcut menu please.
+</pre> 
+
+</li>
+
+<li> When the form is resized, including loaded at the beginning, the controls will be placed
+     on the form as follows:
+     <ul>
+     <li> The title label is horizontally in the center of the form. </li>
+     <li> The left margin (the space to the left of lstAvailable) and 
+          the right margin (the space to the right of lstSelected) are the same; 
+          the three buttons are aligned on left; the space from the buttons to lstAvailable
+          is the same as that to lstSelected, which is half of the left margin size. </li>
+     <li> Each label above a listbox is horizontally centered with respect to the listbox;
+          the vertical space between the listbox and the label is always 30.   </li>
+     <li> The two listboxes are aligned on top. </li>
+     <li> Button btnSelect is aligned on top with lstAvailable; the spaces between the three
+          buttons are the same, and button btnRemoveAll is aligned on bottom with lstAvailable. </li>
+     <li> The top margin (the space between the form title bar and the title label) 
+          is the same as the bottom margin (the sapce below the listboxes), 
+          which is twice the middle margin
+          (the space between the title label and the two labels above the listboxes). </li>
+     </ul>
+     </li>
+</ul>
+
+
+<h5> Form frmPayment </h5>
+<ul>
+<li> The form has its control box and its title is "Lab6" followed by your full name. 
+     The StartPosition is center screen, the Window state is normal, and the FormBorderStyle is Fixed3D. </li>
+     
+<li> The initial size is (720, 450) and the minimum size is (450, 350). </li>
+
+<li> At the top, there is a state groupbox of size (440, 60). The text is "Where do you live?" 
+     The groupbox has five radio buttons with text being "Wisconsin," "Minnesota,"
+     "Tri-State," "Non-Resident" and "International," respectively. </li>
+
+<li> Below the state groupbox, there is a residence groupbox of size (300, 60),
+     The text is "Will you be staying in the Residence Halls?" 
+     It has two radio boxes with text being "Yes" and "No", respectively. </li> 
+
+<li> Below the residence groupbox, there is a label with text "Choose a meal plan."
+     The font is MS Sans Resif 8.25, AutoSize is true, textalign is MiddleCenter. </li>     
+
+<li> There is a combobox of size (220, 21) below the label. 
+     The DropDownStyle is DropDownList and the items are
+<pre>
+      Regular
+           19 meals per week
+           15 meals per week
+           14 meals per week and $50 per semester
+           110 meals and $125 per semester
+           90 meals and $100 per semester
+           150 meals and $100 per semester
+           175 meals and $100 per semester
+      Commute and off-campus only meal plan
+           No meal plan
+           50 meals per semester
+           50 meals and $75 per semester
+           75 meals and $100 per semester
+</pre>
+    </li>    
+
+<li> Below the combobox there is a parking groupbox of size (300, 60).
+     The text is "Are you planning to park your car on campus?"
+     It has two radio boxes with text being "Yes" and "No", respectively. </li> 
+
+<li> Below the parking groupbox there is a label with text "Your payment this semester is." 
+     The font is MS Sans Resif 8.25, AutoSize is true, textalign is MiddleCenter. </li>
+
+<li> There is a textbox of size (100, 20) below the label.     
+     It's ready only, the backcolor is Window, and textalign is right. </li>
+
+<li> Right clicking on the form will popup a shortcut menu with two menu items: Back and Exit. 
+     The shortcut keys are Ctrl+B and Ctrl+X, respectively. </li>     
+
+<li> Clicking on menu item Back will hide the form and show form frmClasses;
+     clicking on menu item Exit will terminate the program.
+</li>
+
+<li> Clicking on the form close button in the form controlbox or pressing Alt+F4 will popup a message box with 
+     the following message on two lines and the form will not be closed:
+<pre>
+        Sorry, the form cannot be closed this way!
+        Use the form Shortcut menu please.
+</pre> 
+</li>
+
+<!--
+<li> When the form is resized, including loaded at the beginning, the controls will be placed
+     on the form as follows:
+     <ul>
+     <li> The state groupbox is horizontally in the center of the form. </li>
+     <li> Other groupboxes and labels are aligned with the state groupbox on the left,
+          and the combobox and textbox are indented 20 from the left of the state groupbox. </li>
+     <li> The vertical space between each label and the combobox or the textbox below it is always 10.
+          The minimum space between other controls is 10; the minimun top and bottom margin is also 10. </li>
+   
+     <li> When the form has a larger height, both top and bottom margins will get
+          1/4 of the extra height, and each space between the controls, except the space below each label,
+          will get 1/8 of the extra height. </li>
+     </ul>
+   </li>
+-->
+
+<li> When the form is loaded at the beginning, all radio buttons are unchecked, 
+     no item of the combobox is selected, and the textbox is empty with the focus. </li>
+
+<li> When any radio button is checked, the textbox will display the corresponding total payment in currency format. 
+     When "Regular" or "Commute and off-campus only meal plan" of the combobox is selected,
+     item "No meal plan" will be displayed and the meal plan cost must be 0.
+     The total payment is computed based on the following schedule:
+<pre>
+    State
+        Wisconsin    : $2725
+        Minnesota    : $3021
+        Tri-State    : $4725
+        Non-Resident : $6463
+        International: $6463
+        
+    Residence Halls: $1312
+    
+    Meal Plan    
+      Regular
+           19 meals per week                     : $1128
+           15 meals per week                     : $1083
+           14 meals per week and $50 per semester: $1110
+           110 meals and $125 per semester       :  $771
+           90 meals and $100 per semester        :  $626
+           150 meals and $100 per semester       : $1068
+           175 meals and $100 per semester       : $1122
+      Commute and off-campus only meal plan
+           No meal plan
+           50 meals per semester                 :  $316
+           50 meals and $75 per semester         :  $372
+           75 meals and $100 per semester        :  $528
+    
+    Parking: $30
+</pre>
+</li>
+
+<li> The user can switch between the two forms. 
+     When the user revisits a form, all previous selections and the total payment on frmPayment
+     should be unchanged. </li>
+</ul>
+
+
+<h4> Submission </h4>
+<ul>
+<li> Name your solution as UserName_Lab6 using your UserName. </li>
+<li> Drop your solution folder to folder Lab6 of the class Dropbox by the due time.
+</li>
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+S:\Courses\CSSE\yangq\IndepStudy\VBGrader3-6-14\VBGrader\GraderSolution\VBGraderProject\bin\Debug\VBGrader.dll
+S:\Courses\CSSE\yangq\IndepStudy\VBGrader3-6-14\VBGrader\GraderSolution\VBGraderProject\bin\Debug\VBGrader.pdb
+S:\Courses\CSSE\yangq\IndepStudy\VBGrader3-6-14\VBGrader\GraderSolution\VBGraderProject\bin\Debug\VBGrader.xml
+S:\Courses\CSSE\yangq\IndepStudy\VBGrader3-6-14\VBGrader\GraderSolution\VBGraderProject\obj\x86\Debug\UWPCS3340.Resources.resources
+S:\Courses\CSSE\yangq\IndepStudy\VBGrader3-6-14\VBGrader\GraderSolution\VBGraderProject\obj\x86\Debug\ProgramAssemblyTools.vbproj.GenerateResource.Cache
+S:\Courses\CSSE\yangq\IndepStudy\VBGrader3-6-14\VBGrader\GraderSolution\VBGraderProject\obj\x86\Debug\VBGrader.dll
+S:\Courses\CSSE\yangq\IndepStudy\VBGrader3-6-14\VBGrader\GraderSolution\VBGraderProject\obj\x86\Debug\VBGrader.xml
+S:\Courses\CSSE\yangq\IndepStudy\VBGrader3-6-14\VBGrader\GraderSolution\VBGraderProject\obj\x86\Debug\VBGrader.pdb
+G:\Workplace\VBGrader\GraderSolution\VBGraderProject\bin\Debug\VBGrader.dll
+G:\Workplace\VBGrader\GraderSolution\VBGraderProject\bin\Debug\VBGrader.pdb
+G:\Workplace\VBGrader\GraderSolution\VBGraderProject\bin\Debug\VBGrader.xml
+G:\Workplace\VBGrader\GraderSolution\VBGraderProject\obj\x86\Debug\UWPCS3340.Resources.resources
+G:\Workplace\VBGrader\GraderSolution\VBGraderProject\obj\x86\Debug\ProgramAssemblyTools.vbproj.GenerateResource.Cache
+G:\Workplace\VBGrader\GraderSolution\VBGraderProject\obj\x86\Debug\VBGrader.dll
+G:\Workplace\VBGrader\GraderSolution\VBGraderProject\obj\x86\Debug\VBGrader.xml
+G:\Workplace\VBGrader\GraderSolution\VBGraderProject\obj\x86\Debug\VBGrader.pdb

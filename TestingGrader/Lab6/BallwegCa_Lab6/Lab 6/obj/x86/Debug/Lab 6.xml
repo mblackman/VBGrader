@@ -1,0 +1,37 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Lab6
+</name>
+</assembly>
+<members>
+<member name="P:Lab_6.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Lab_6.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Lab_6.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:Lab_6.Module1.main">
+	<summary>
+ runs the program and starts it with Form1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:Lab_6.Module1.UserClosingForm(System.Windows.Forms.FormClosingEventArgs)">
+	<summary>
+ Refuses to close a form when the user tries to close it
+ by clicking on the form close button or press Alt+F4.
+ </summary>
+	<param name="e"> Copied from the FormClosing event procedure of any form. </param>
+	<remarks>You add remarks here</remarks>
+</member>
+</members>
+</doc>

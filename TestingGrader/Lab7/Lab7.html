@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head><title>
+CS 2340: Programming in VB.NET
+</title></head>
+
+<body>
+<center><h4>
+         CS 2340 - Lab 7: Database I (25 Points)
+<br />
+Due 9 PM, Monday, November 12, 2012
+</h4></center>
+
+<!--
+Disable/Enable other buttons when updating
+-->
+
+<p>
+Create a VB.NET program in MS Visual Studio 2010 with one code module and
+two form class, FormClassGrid and FormClassIndividual, to access database records.
+</p>
+
+<!-- Not a good ideas!
+<p>
+You can work in pairs for the Lab.
+</p>
+-->
+
+<h5> Supporting files </h5>
+<ul>
+<li> The database file is MyCompany.mdb and it is located at S:\Courses\CSSE\yangq\CS2340\ReadOnly\DataBase.
+You <b>must</b> copy it to your C:\Temp. </li>
+<li> All other supporting files are also in the folder. </li>
+</ul>
+
+<h5> Code Module </h5>
+<ul>
+<li> You must have a code module with a main sub, and the startup object must be Sub Main (or Module). </li>
+<li> The module must declare two variables, frmGrid of FormClassGrid and frmIndividual of FormClassIndividual. </li>
+<li> Sub Main must create objects of the two form classes and assign them to frmGrid and frmIndividual, then start the program with frmGrid. </li>
+</ul>
+
+<h5> Class FormClassGrid </h5>
+<ul>
+<li> The form has its control box and its title is "Lab7" followed by your first and last names. 
+     The StartPosition is center screen, the Window state is normal, and the FormBorderStyle is Sizable. </li>
+     
+<li> The initial size is (800, 350) and the minimum size is (520, 320). </li>
+
+<li> The form has a DataGridView of size (524, 220). It has six columns, and the column header text is
+     "ID", "Last Name", "First Name", "Full Time", "Hire Date" and "Salary", respectively.
+     The width of column ID is 50, column Last Name and First Name 95, column Full Time and Salary 70,
+     column Hire Date 80. </li>
+
+<li> The ToolTipText of column ID is "Employee ID" and that of column Salary is "Annual Salary." </li> 
+
+<li> The values of ID are centered, that of Last Name and First Name are left aligned,
+     that of Hire Date and Salary are right aligned.
+     The Hire Date is in the short date format, and Salary is in Currency format without any decimal digits. </li>
+
+<li> There is a label above the DataGridView with text "Employees." 
+     The AutoSize of the label is true, and the font is MS Sans Serif 14 and underlined.  </li>
+
+<li> The standard DataGridView binding navigator toolbar is on the top of the form. Its back color is ControlDark.
+     The toolbar has an additional refresh ToolStripButton with ToolTipText "Refresh." </li>
+
+<li> When the form is displayed, all records of table SalesStaff are listed in the grid, and the
+     items on the navigator toolbar must work as expected.  </li>    
+
+<li> Right clicking on the DataGridView, a shortcut menu will be displayed with two menu items:
+     Individual and Exit. The shortcut keys are Ctrl+I and Ctrl+X, respectively. </li>
+
+<li> Clicking on Individual will hide the form and show frmIndividual, clicking on Exit 
+     will terminate the program. </li>
+
+<li> Clicking on the form close button in the form controlbox or pressing Alt+F4 will not close
+     the form and the program continues to run. </li>
+
+<li> When the form is resized, including loaded at the beginning, the controls will be placed
+     on the form as follows:
+     <ul>
+     <li> Horizontally, both the title label and the grid will be in the center of the form. </li>
+     <li> Vertically, the top margin is the same as the bottom margin, and the middle margin,
+          the space between the title label and the grid, is 2/3 of the top margin. </li>
+     </ul>
+     </li>
+</ul>
+
+
+<h5> Class FormClassIndividual </h5>
+<ul>
+<li> The form has no control box and its title is "Lab7" followed by your first and last names. 
+     The StartPosition is center screen, the Window state is normal, 
+     the size is (580, 300) and the FormBorderStyle is Fixed3D. </li>
+     
+<li> The data for one employee is displayed on the form, and your form must be very
+     similar to that of the sample program. </li>
+
+<li> At the top of the form, there is a ToolStrip. The ToolStrip is very similar to the
+     standard BindingNavigator, but you are NOT allowed to use the BindingNavigator,
+     and you <b>must</b> setup the ToolStrip yourself. </li>
+     
+<li> The toolbar has eight ToolStripButtons, one ToolStripTextbox, one ToolStripLabel, and
+     three ToolStripSeparators.  
+     Your toolbar <b>must</b> be very similar to that of the sample program, including
+     the image, text and tooltiptext. </li>
+      
+<li> The functionality of each item of the toolbar is the same
+     as the corresponding item on the standard binding navigator toolbar.   </li> 
+
+<li> All the navigation buttons must be enabled and disabled correctly all the times.   </li> 
+
+<li> After clicking on button Add New, all buttons on the toolstrp should be disabled, except 
+     the Save and Delete buttons. The user can enter data and click Save to save the new record to database
+     or click Delete to discard the new record. All buttons should work normally after clicking
+     Save or Delete.
+     </li> 
+
+<li> The position textbox is ReadOnly, and its text is center aligned. </li>
+
+<li> Right clicking on the textbox for ID, Last Name, or First Name will popup a shortcut menu
+     with two menu items: Grid and Exit. The shortcut keys are Ctrl+G and Ctrl+X, respectively. </li>
+
+<li> Clicking on Grid will hide the form and show frmGrid, clicking on Exit 
+     will terminate the program. </li>
+</ul>
+
+
+<h5> Submission </h5>
+<ul>
+<li> Name your solution folder as UserName_Lab7 using your UserName and drop the entire folder
+     to folder Lab7 of the class Dropbox by the due time.  </li>
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab2\AbabioM_Lab2\bin\Debug\AbabioM_Lab2.exe
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab2\AbabioM_Lab2\bin\Debug\AbabioM_Lab2.pdb
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab2\AbabioM_Lab2\bin\Debug\AbabioM_Lab2.xml
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab2\AbabioM_Lab2\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab2\AbabioM_Lab2\obj\x86\Debug\WindowsApplication1.frmLab2.resources
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab2\AbabioM_Lab2\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab2\AbabioM_Lab2\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab2\AbabioM_Lab2\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab2\AbabioM_Lab2\obj\x86\Debug\AbabioM_Lab2.exe
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab2\AbabioM_Lab2\obj\x86\Debug\AbabioM_Lab2.xml
+C:\Users\Michael\Desktop\School Stuff\Sophomore Year\Visual Basic\Lab2\AbabioM_Lab2\obj\x86\Debug\AbabioM_Lab2.pdb
+G:\Lab2\AbabioM_Lab2\obj\x86\Debug\AbabioM_Lab2.exe
+G:\Lab2\AbabioM_Lab2\obj\x86\Debug\AbabioM_Lab2.xml
+G:\Lab2\AbabioM_Lab2\obj\x86\Debug\AbabioM_Lab2.pdb
+G:\Lab2\AbabioM_Lab2\bin\Debug\AbabioM_Lab2.exe
+G:\Lab2\AbabioM_Lab2\bin\Debug\AbabioM_Lab2.pdb
+G:\Lab2\AbabioM_Lab2\bin\Debug\AbabioM_Lab2.xml
+G:\Lab2\AbabioM_Lab2\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Lab2\AbabioM_Lab2\obj\x86\Debug\WindowsApplication1.frmPayRoll.resources
+G:\Lab2\AbabioM_Lab2\obj\x86\Debug\WindowsApplication1.Resources.resources
+G:\Lab2\AbabioM_Lab2\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\Lab2\AbabioM_Lab2\obj\x86\Debug\GenerateResource.write.1.tlog

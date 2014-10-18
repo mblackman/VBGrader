@@ -1,0 +1,95 @@
+' Sets the point value of this asignment
+TotalPoints 10
+
+' Checks the content of the form
+Form frmMain
+	Text "Lab1 (firstname lastname)" 0.5
+	Height 292 0.5
+	Width 500 0.5
+	FormBorderStyle Fixed3D 0.5
+	WindowState Normal 0.5
+	StartPosition CenterScreen 0.5
+	
+' Checks txtInput Properties
+Find TextBox txtInput 
+	Name txtInput 0.5
+	Multiline False 0.5
+	TextAlign Left 0.5
+	ReadOnly False 0.5
+
+' Checks txtSquareRoot Properties
+Find TextBox txtSquare 
+	Name txtSquare 0.5
+	Multiline False 0.5
+	TextAlign Right 0.5
+	ReadOnly True 0.5
+
+' Checks lblInput Properties
+Find Label lblInput 
+	Name lblInput 0.5
+	AutoSize True 0.5
+	Text "Inputtt" 0.5
+	
+' Checks lblSquareRoot Properties
+Find Label lblSquare 
+	Name lblSquare 0.5
+	AutoSize True 0.5
+	Text "Square Root" 0.5
+	
+' Checks btnCompute Properties
+Find Button btnCompute 
+	Name btnCompute 0.5
+	Text "&Compute" 0.5
+
+' Checks btnExit Properties
+Find Button btnExit 
+	Name btnExit 0.5
+	Text "E&xit" 0.5
+
+' Checks if lblInput and txtInput are left aligned
+Aligned Left lblInput txtInput 0.5
+
+' Checks if lblSquareRoot and txtSquareRoot are left aligned
+Aligned Left lblSquare txtSquare 0.5
+
+' Checks if lblInput and lblSquare are top aligned
+Aligned Top lblInput lblSquare 0.5
+
+' Checks if txtInput and txtSquareRoot are top aligned
+Aligned Top txtInput txtSquare 0.5
+
+' Checks if btnCompute and btnExit are top aligned
+Aligned Top btnCompute btnExit 0.5
+
+
+' Tests Tab Order
+TabOrder txtInput btnCompute btnExit
+
+' Test for good input
+SetTextboxProperty txtInput Text 5
+Click btnCompute
+txtSquare Text 2.24 0.5
+
+' Test for good input
+SetTextboxProperty txtInput Text 8
+Click btnCompute
+txtSquare Text 2.83 0.5
+
+' Test for good input
+SetTextboxProperty txtInput Text 0
+Click btnCompute
+txtSquare Text 0.00 0.5
+
+' Test for good input
+SetTextboxProperty txtInput Text 5
+Click btnCompute
+txtSquare Text 2.24 0.5
+
+' Test for invalid input
+' Does not know how to check multiple lines on message box
+'      but does not take ponts off
+SetTextboxProperty txtInput Text -8
+Click btnCompute
+Expect msgCaption = "Lab 1" 0.5
+Expect msgLabel_line1 = "Incorrect Input!" 0.5
+Expect msgLabel_line2 = "Enter Again!" 0.5
